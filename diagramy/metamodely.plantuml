@@ -1,3 +1,28 @@
-@startuml strategie
-
+@startuml
+title Strategie v organizaci
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+!include <archimate/archimate>
+left to right direction
+Business_Actor(metamodelorganizace, "Organizace") 
+Business_Contract(metamodelbyzstrategie, "Strategie organizace") 
+Business_Contract(metamodelitstrategie, "Strategie rozvoje IT") 
+Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
+Motivation_Goal(metamodelbyzstratcil, "Strategický cíl organizace") 
+Motivation_Goal(metamodelitcil, "Cíl rozvoje IT") 
+Motivation_Principle(metamodelprincip, "Architektonický princip") 
+Motivation_Principle(metamodelzasada, "Zásada řízení") 
+Implementation_WorkPackage(metamodelprojekt, "Projekt") 
+Rel_Serving(metamodelorganizace, metamodelbyzstrategie, vydává)
+Rel_Serving(metamodelorganizace, metamodelitstrategie, vydává)
+Rel_Specialization(metamodelitstrategie, metamodelikovs, "pro ovm")
+Rel_Association(metamodelbyzstrategie, metamodelbyzstratcil, určuje)
+Rel_Association(metamodelitstrategie, metamodelitcil, určuje)
+Rel_Association(metamodelitstrategie, metamodelprincip, určuje)
+Rel_Association(metamodelitstrategie, metamodelzasada, určuje)
+Rel_Association(metamodelprojekt, metamodelitcil, realizuje)
+Rel_Association(metamodelprojekt, metamodelprincip, plní)
+Rel_Association(metamodelprojekt, metamodelzasada, plní)
 @enduml
