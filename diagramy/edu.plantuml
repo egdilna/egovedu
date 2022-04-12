@@ -1,0 +1,20 @@
+@startuml prava-sluzby-klienti-vs
+allowmixing
+title Jak to chodí ve veřejné správě
+footer EGOVEDU
+class "Práva" as prava
+class "Povinnosti" as povinnosti
+actor "Klient" as klient
+actor "Veřejná\nspráva" as vs
+class "Úkon" as ukon
+class "Služba" as sluzba
+prava <..r[#black]..> povinnosti : určuje
+prava -d- klient
+povinnosti -d- vs
+klient <..r..> vs : interagují
+povinnosti -- klient
+klient -d[#green]-> ukon : činí
+vs -d[#blue]-> sluzba : poskytuje
+sluzba -[#green]-> klient : je poskytována
+ukon ..r[#black]..> sluzba : iniciuje
+@enduml

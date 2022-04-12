@@ -9,7 +9,7 @@ Popis jednotlivých prvků:
 * Strategie organizace : Základní závazný vnitřní dokument organizace určující její obecné strategické směřování a podrobnosti k jejímu fungování a stanovující strategické cíle a jejich realizaci.
 * Strategický cíl organizace : Cíl klíčový pro naplnění poslání organizace a pro efektivitu jejího strategického rozvoje a fungování.
 * Strategie rozvoje IT : Základní závazný vnitřní dokument s koncepčním strategickým rámcem pro fungování a rozvoj ICT a aplikací a systémů v organizaci. Mimo jiné, zhodnocuje aktuální stav a jeho problémy, definuje cíle rozvoje IT a principy a zásady pro správu a rozvoj ICT v organizaci a určuje podmínky k jejich realizaci. Zatímco úřad si povinně zpracovává jako tento dokument Informační koncepci, toto je dobrovolný, ale nezbytný dokument jiné organizace, jež není úřadem.
-    * Informační koncepce úřadu : Informační koncepce zpracovaná podle zákona o ISVS a vyhlášky o dlouhodobém řízení je jediným legálním závazným koncepčním rámcem úřadu.
+    * Informační koncepce úřadu : <mark>Informační koncepce zpracovaná podle zákona o ISVS a vyhlášky o dlouhodobém řízení je jediným legálním závazným koncepčním rámcem úřadu.</mark>
 * Cíl rozvoje IT : Cíl klíčový pro efektivitu nákladů a přínosů ICT prostředků a správný rozvoj ICT v organizaci.
 * Architektonický princip : Definovaný princip uplatňování nejen v rámci rozvoje architektury, ale především při její realizaci a vynucování a při rozvoji ICT. Je vždy povinně dodržován.
 * Zásada řízení : Definovaná zásada uplatňovaná při řízení rozvoje ICT, je závazná pro jakýkoliv aspekt rozvoje ICT, jehož se týká. Je povinně dodržována.
