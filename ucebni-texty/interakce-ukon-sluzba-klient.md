@@ -1,4 +1,4 @@
-## Interakce mezi veřejnou správou a klientem, služby a úkony, práva a povinnosti
+## KEKOREKTUŘE Interakce mezi veřejnou správou a klientem, služby a úkony, práva a povinnosti
 
 Nejčastější formou interakce veřejné správy a klienta v tom obecném smyslu, je činění úkonu a poskytování služby. O názorný přehled se pokusí následující diagram
 
@@ -9,7 +9,7 @@ Tento diagram nám říká dvě základní věci:
 1. Existují práva a povinnosti
 2. Existují služby a úkony
 
-### Dvě základní cesty interakcí ve formě služby a úkonu
+### KEKOREKTUŘE Dvě základní cesty interakcí ve formě služby a úkonu
 
 Platí, že v naprosté většině případů
 
@@ -20,7 +20,7 @@ Platí, že v naprosté většině případů
 
 To, kdy se jedná o službu a o úkon a za jakých podmínek lze činit úkon a poskytovat službu, určuje jednak legislativa a jednak charakter každé takové interakce.
 
-## Práva a povinnosti jako mantinely interakcí
+### KEKOREKTUŘE Práva a povinnosti jako mantinely interakcí
 
 Všimněte si jedné na první pohled zvláštní, nicméně pravdivé věci.
 
