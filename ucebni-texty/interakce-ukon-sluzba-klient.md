@@ -9,6 +9,17 @@ Tento diagram nám říká dvě základní věci:
 1. Existují práva a povinnosti
 2. Existují služby a úkony
 
+
+### KEKOREKTUŘE Co je co?
+
+- Klient: Jde vždy o subjekt, buď fyzickou osobu, nebo právnickou osobu (za kterou ale jedná fyzická osoba). V interakci vystupuje jako klientský subjekt, ne vždy musí být ale iniciátorem této interakce.
+- Veřejná správa: Myslíme tím veřejnou správu jako celek (podle principu "Jeden stát"), ale v interakci se tím myslí konkrétní úřad jako organizace veřejné správy - tedy orgán veřejné moci. OVM něco činí a to nikoliv z jakési libovůle, ale ze zákona a jménem státu nebo jménem veřejné správy.
+- Právo: Klient má určité právo, to buď zajišťuje na nejobecnější úrovni soubor ústavních práv a základní práva a svobody, nebo na konkrétnější úrovni mu takové právo přiznává zákon.
+- Povinnost: Klient má určité povinnosti a povinnosti má také veřejná správa. Povinnost vždy stanoví zákon a stanoví také její rozsah a podrobnosti.
+- Úkon: V obecném smyslu slova je to právě interakce od klienta směrem k úřadu, nicméně máme zde i specifické kategorie úkonů, jež jsou vedeny jako úkony v rámci služeb veřejné správy (ty jsou zapsány v Registru práv a povnností)
+- Služba: Cokoliv co veřejná správa někomu poskytuje, ať už se jedná o sdílenou službu určenou dovnitř veřejné správy, ale především službu veřejné správy poskytovanou někomu jinému (většinou klientovi). Službu z její podstaty dělíme na vyžadovanou (někdo něco chce a úřad takovou službu poskytne) a vynucovanou (někdo má určitou povinnost vůči státu a její plnění zajistí úřad).
+
+
 ### KEKOREKTUŘE Dvě základní cesty interakcí ve formě služby a úkonu
 
 Platí, že v naprosté většině případů
