@@ -2,7 +2,10 @@
 
 Popišme si stručně, jak má ideálně vypadat stratevický rámec v univerzální obecné organizaci. Úřady to mají trochu složitější, nicméně i tyhle obecné principy pro ně platí, následující je ale využitelné především pro organizace jež nejsou úřady, ale chtějí svoje ICT rozvíjet správně.
 
+<figure>
 ![Diagram Strategie v organizaci](https://github.com/egdilna/egovedu/raw/main/diagramy/metamodely/strategie.png)
+<figcaption>Diagram s přehledem strategických rámců v organizaci a jejich významu</figcaption>
+</figure>
 
 Popis jednotlivých prvků:
 

@@ -6,6 +6,8 @@
 
 - [ ] POPIS co je tohle za pyramidu
 
+Pyramidu můžeme číst dvěma způsoby. Zdola, pokud chceme myslet jako realizátor konkrétní oblasti či služby a zhora, pokud jsme manažeři a potřebujeme, aby nám vše klaplo dohromady. Pokud na jakékoliv z těchto pater zapomeneme, máme problém.
+
 - [ ] ROZMYSLET jestli víc rozebrat jednotlivá patra v textu
 ### 🖋 Co je důležité na jednotlivých patrech
 
