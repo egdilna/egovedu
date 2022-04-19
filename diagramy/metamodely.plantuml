@@ -26,3 +26,64 @@ Rel_Association(metamodelprojekt, metamodelitcil, realizuje)
 Rel_Association(metamodelprojekt, metamodelprincip, plní)
 Rel_Association(metamodelprojekt, metamodelzasada, plní)
 @enduml
+
+@startuml isvs-role 
+title ISVS a vztahy a důležité role
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+!include <archimate/archimate>
+left to right direction
+Business_Actor(ovm, "Orgán veřejné moci") 
+Application_Component(isvs, "Informační systém veřejné správy") 
+Application_Component(ais, "Agendový informační systém") 
+Business_Role(rolespravceisvs, "Správce informačního systému") 
+Business_Role(roleuzivatelis, "Uživatel informačního systému") 
+Business_Role(roleeditorudajiis, "Editor údajů v agendovém informačním systému") 
+Business_Role(roleuzivateludajuis, "Uživatel údajů v informačním systému") 
+Rel_Serving(ovm, isvs, spravuje)
+Rel_Serving(isvs, ovm, je užíván)
+Rel_Specialization(isvs, ais)
+Rel_Assignment(ovm, rolespravceisvs)
+Rel_Assignment(ovm, roleeditorudajiis)
+Rel_Assignment(ovm, roleuzivatelis)
+Rel_Assignment(ovm, roleuzivateludajuis)
+@enduml
+
+@startuml druhy-subjekty
+title Druhy subjektů a jejich zdroje
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+!include <archimate/archimate>
+left to right direction
+Business_Actor(subjekt, "Subjekt") 
+Business_Actor(subjektfo, "Fyzická osoba") 
+Business_Actor(subjektpo, "Právnická osoba") 
+Business_Actor(subjektpfo, "Podnikající fyzická osoba") 
+Business_Actor(subjektosvc, "Osoba samostatně výdělečně činná") 
+Business_Actor(forobak, "Fyzická osoba vedená v Registru obyvatel") 
+Business_Actor(fonerobak, "Fyzická osoba, která není vedena v Registru obyvatel") 
+Business_Actor(pobockaros, "Pobočka osoby") 
+Business_Actor(pojevros, "Právnický subjekt vedený v Registru osob") 
+Business_Actor(ponenivros, "Právnický subjekt, který není vedený v Registru osob") 
+Grouping(zr, "Základní registry") {
+    Application_Component(rob, "Registr obyvatel (ROB)") 
+    Application_Component(ros, "Registr osob (ROS)") 
+}
+    Rel_Specialization(subjekt, subjektfo)
+Rel_Specialization(subjektfo, forobak)
+Rel_Specialization(subjektfo, fonerobak)
+Rel_Specialization(subjekt, subjektpo)
+Rel_Serving(subjektfo, subjektpo)
+Rel_Specialization(subjektpo, subjektpfo)
+Rel_Specialization(subjektpo, subjektosvc)
+Rel_Specialization(subjektpo, pojevros)
+Rel_Specialization(subjektpo, ponenivros)
+Rel_Composition(subjektpo, pobockaros)
+Rel_Access(rob, forobak)
+Rel_Access(ros, pobockaros)
+Rel_Access(ros, pojevros)
+@enduml
