@@ -87,3 +87,23 @@ Rel_Access(rob, forobak)
 Rel_Access(ros, pobockaros)
 Rel_Access(ros, pojevros)
 @enduml
+
+@startuml skupiny-udaju-subjektu
+title Druhy a skupiny údajů o subjektu
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+!include <archimate/archimate>
+left to right direction
+Grouping(groupingskupinyudajusu, "Skupiny údajů o subjektu") {
+    Application_DataObject(udajeref, "Referenční údaje") 
+    Application_DataObject(udajeneref, "Nereferenční údaje ze základních registrů") 
+    Application_DataObject(udajekontaktni, "Kontaktní údaje") 
+    Application_DataObject(udajezsrpp, "Údaje o zápisu skutečnosti v RPP") 
+    Application_DataObject(udajeagendove, "Agendové údaje") 
+    Application_DataObject(udajeovu, "Údaje o využití údajů subjektu") 
+    Application_DataObject(udajeprocesni, "Procesní údaje") 
+    Application_DataObject(udajeprovozni, "Provozní údaje") 
+}
+@enduml
