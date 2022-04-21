@@ -3,7 +3,8 @@
 Popišme si stručně, jak má ideálně vypadat stratevický rámec v univerzální obecné organizaci. Úřady to mají trochu složitější, nicméně i tyhle obecné principy pro ně platí, následující je ale využitelné především pro organizace jež nejsou úřady, ale chtějí svoje ICT rozvíjet správně.
 
 
-![Diagram Strategie v organizaci](https://github.com/egdilna/egovedu/raw/main/diagramy/metamodely/strategie.png)
+![Obrázek [strategie-v-organizaci]: Strategie v organizaci a její význam, Zdroj: Učební texty EGOVedu - EGdílna](https://github.com/egdilna/egovedu/raw/main/diagramy/metamodely/strategie.png)
+
 
 Popis jednotlivých prvků:
 
@@ -29,3 +30,6 @@ Co nám to říká:
 * Projekt je realizací Cíle rozvoje IT : Každý interní projekt ICT musí realizovat alespoň jeden cíl rozvoje, čím více cílů, tím lépe. Realizace cílů se popíše v obsahovém rámci projektu a realizace těchto cílů je také důvodem pro projekt.
 * Projekt je v souladu s Architektonickými principy : Každý připravovaný a realizovaný projekt musí respektovat naše architektonické principy uvedené ve strategii a být s nimi v souladu. To se uvede i v obsahovém záměru a projektové dokumentaci. V případě výjimky se toto řádně odůvodní a postupuje se dle obvyklého procesu schvalování výjimky.
 * Projekt je v souladu se Zásadami řízení : Každý připravovaný a realizovaný projekt musí respektovat naše zásady uvedené ve strategii a být s nimi v souladu. To se uvede i v obsahovém záměru a projektové dokumentaci. V případě výjimky se toto řádně odůvodní a postupuje se dle obvyklého procesu schvalování výjimky.
+
+
+<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>

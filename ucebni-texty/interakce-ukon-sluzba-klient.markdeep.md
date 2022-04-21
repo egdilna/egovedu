@@ -2,7 +2,8 @@
 
 Nejčastější formou interakce veřejné správy a klienta v tom obecném smyslu, je činění úkonu a poskytování služby. O názorný přehled se pokusí následující diagram
 
-![Diagram Přehled interakcí klienta a VS - služby a úkony](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/prava-sluzby-klienti-vs.png)
+![Obrázek [prava-sluzby-klienti-vs]: Interakce klienta a VS - služby a úkony a práva a povinnosti, Zdroj: Učební texty EGOVedu - EGdílna](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/prava-sluzby-klienti-vs.png)
+
 
 Tento diagram nám říká dvě základní věci:
 
@@ -41,3 +42,5 @@ Všimněte si jedné na první pohled zvláštní, nicméně pravdivé věci.
 Tedy lze obecně konstatovat, že veřejná správa nemá práva jako taková. Na první pohled se to může zdát nesmyslné, ale z Ústavního rámce obecně plyne, že veřejná správa smí konat pouze na základě zákona, který jí to ukládá. Pokud tedy veřejná správa něco dělá, je to fakticky vždy povinnost a případné právo subjektu veřejné správy se uplatňuje buď jako splněná povinnost, nebo jako dodržení povinnosti vybrat si, zda tu danou věc učiní.
 
 Tohle bývá mnohdy velice špatně pochopitelné. Pro účely pochopení fungování úřadu a zejména pro potřeby zpracování a řízení jeho procesů a činností a architektury, je tohle ale jasná pravda, se kterou se dá dobře pracovat.
+
+<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
