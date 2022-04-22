@@ -1,6 +1,6 @@
-## KEKOREKTUŘE Interakce mezi veřejnou správou a klientem, služby a úkony, práva a povinnosti
+## Interakce mezi veřejnou správou a klientem, služby a úkony, práva a povinnosti
 
-Nejčastější formou interakce veřejné správy a klienta v tom obecném smyslu, je činění úkonu a poskytování služby. O názorný přehled se pokusí následující diagram
+Nejčastější formou interakce veřejné správy a klienta, a to v obecném smyslu, je činění úkonu a poskytování služby. O názorný přehled se pokusí následující diagram.
 
 ![Obrázek [prava-sluzby-klienti-vs]: Interakce klienta a VS - služby a úkony a práva a povinnosti, Zdroj: Učební texty EGOVedu - EGdílna](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/prava-sluzby-klienti-vs.png)
 
@@ -11,19 +11,19 @@ Tento diagram nám říká dvě základní věci:
 2. Existují služby a úkony
 
 
-### KEKOREKTUŘE Co je co?
+### Co je co?
 
-- Klient: Jde vždy o subjekt, buď fyzickou osobu, nebo právnickou osobu (za kterou ale jedná fyzická osoba). V interakci vystupuje jako klientský subjekt, ne vždy musí být ale iniciátorem této interakce.
-- Veřejná správa: Myslíme tím veřejnou správu jako celek (podle principu "Jeden stát"), ale v interakci se tím myslí konkrétní úřad jako organizace veřejné správy - tedy orgán veřejné moci. OVM něco činí a to nikoliv z jakési libovůle, ale ze zákona a jménem státu nebo jménem veřejné správy.
+- Klient: Jde vždy o subjekt, a to buď fyzickou osobu, nebo právnickou osobu, (za kterou ovšem jedná fyzická osoba). V interakci vystupuje jako klientský subjekt, ne vždy musí být ale iniciátorem této interakce.
+- Veřejná správa: Myslíme tím veřejnou správu jako celek (podle principu "Jeden stát"), ale v interakci se tím myslí konkrétní úřad jako organizace veřejné správy - tedy orgán veřejné moci. OVM něco činí, a to nikoliv z jakési libovůle, ale ze zákona a jménem státu či jménem veřejné správy.
 - Právo: Klient má určité právo, to buď zajišťuje na nejobecnější úrovni soubor ústavních práv a základní práva a svobody, nebo na konkrétnější úrovni mu takové právo přiznává zákon.
 - Povinnost: Klient má určité povinnosti a povinnosti má také veřejná správa. Povinnost vždy stanoví zákon a stanoví také její rozsah a podrobnosti.
-- Úkon: V obecném smyslu slova je to právě interakce od klienta směrem k úřadu, nicméně máme zde i specifické kategorie úkonů, jež jsou vedeny jako úkony v rámci služeb veřejné správy (ty jsou zapsány v Registru práv a povnností)
-- Služba: Cokoliv co veřejná správa někomu poskytuje, ať už se jedná o sdílenou službu určenou dovnitř veřejné správy, ale především službu veřejné správy poskytovanou někomu jinému (většinou klientovi). Službu z její podstaty dělíme na vyžadovanou (někdo něco chce a úřad takovou službu poskytne) a vynucovanou (někdo má určitou povinnost vůči státu a její plnění zajistí úřad).
+- Úkon: V obecném smyslu slova je to právě interakce od klienta směrem k úřadu, nicméně máme zde i specifické kategorie úkonů, jež jsou vedeny jako úkony v rámci služeb veřejné správy (ty jsou zapsány v Registru práv a povinností).
+- Služba: Cokoliv, co veřejná správa někomu poskytuje, ať už se jedná o sdílenou službu určenou dovnitř veřejné správy, ale především službu veřejné správy poskytovanou někomu jinému (většinou klientovi). Službu z její podstaty dělíme na vyžadovanou (někdo něco chce a úřad takovou službu poskytne) a vynucovanou (někdo má určitou povinnost vůči státu a její plnění zajistí úřad).
 
 
-### KEKOREKTUŘE Dvě základní cesty interakcí ve formě služby a úkonu
+### Dvě základní cesty interakcí ve formě služby a úkonu
 
-Platí, že v naprosté většině případů
+Platí, že v naprosté většině případů:
 
 - Klient činí úkon, dělá to směrem k veřejné správě
 - Veřejná správa poskytuje službu, dělá to směrem ke klientovi
@@ -32,15 +32,15 @@ Platí, že v naprosté většině případů
 
 To, kdy se jedná o službu a o úkon a za jakých podmínek lze činit úkon a poskytovat službu, určuje jednak legislativa a jednak charakter každé takové interakce.
 
-### KEKOREKTUŘE Práva a povinnosti jako mantinely interakcí
+### Práva a povinnosti jako mantinely interakcí
 
-Všimněte si jedné na první pohled zvláštní, nicméně pravdivé věci.
+Všimněte si jedné, na první pohled zvláštní, nicméně pravdivé věci.
 
 - Klient má práva, má ale také povinnosti
 - Veřejná správa má pouze povinnosti
 
-Tedy lze obecně konstatovat, že veřejná správa nemá práva jako taková. Na první pohled se to může zdát nesmyslné, ale z Ústavního rámce obecně plyne, že veřejná správa smí konat pouze na základě zákona, který jí to ukládá. Pokud tedy veřejná správa něco dělá, je to fakticky vždy povinnost a případné právo subjektu veřejné správy se uplatňuje buď jako splněná povinnost, nebo jako dodržení povinnosti vybrat si, zda tu danou věc učiní.
+Tedy lze obecně konstatovat, že veřejná správa nemá práva jako taková. Na první pohled se to může zdát nesmyslné, ale z ústavního rámce obecně plyne, že veřejná správa smí konat pouze na základě zákona, který jí to ukládá. Pokud tedy veřejná správa něco dělá, je to fakticky vždy povinnost a případné právo subjektu veřejné správy se uplatňuje buď jako splněná povinnost, nebo jako dodržení povinnosti vybrat si, zda tu danou věc učiní.
 
-Tohle bývá mnohdy velice špatně pochopitelné. Pro účely pochopení fungování úřadu a zejména pro potřeby zpracování a řízení jeho procesů a činností a architektury, je tohle ale jasná pravda, se kterou se dá dobře pracovat.
+Toto bývá mnohdy velice špatně pochopitelné. Pro účely pochopení fungování úřadu, zejména pro potřeby zpracování a řízení jeho procesů a činností a architektury, je tohle ale jasná pravda, se kterou se dá dobře pracovat.
 
 <meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
