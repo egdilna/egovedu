@@ -7,7 +7,7 @@ end footer
 !include <archimate/archimate>
 left to right direction
 Business_Actor(metamodelorganizace, "Organizace") 
-Motivation_Driver(metamodelpotreba, "Potřeba nebo důvod motivace￼￼") 
+Motivation_Driver(metamodelpotreba, "Potřeba nebo důvod motivace") 
 Business_Contract(metamodelbyzstrategie, "Strategie organizace") 
 Business_Contract(metamodelitstrategie, "Strategie rozvoje IT") 
 Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
