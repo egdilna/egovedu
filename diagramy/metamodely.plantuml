@@ -7,6 +7,7 @@ end footer
 !include <archimate/archimate>
 left to right direction
 Business_Actor(metamodelorganizace, "Organizace") 
+Motivation_Driver(metamodelpotreba, "Potřeba nebo důvod motivace￼￼") 
 Business_Contract(metamodelbyzstrategie, "Strategie organizace") 
 Business_Contract(metamodelitstrategie, "Strategie rozvoje IT") 
 Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
@@ -17,11 +18,14 @@ Motivation_Principle(metamodelzasada, "Zásada řízení")
 Implementation_WorkPackage(metamodelprojekt, "Projekt") 
 Rel_Serving(metamodelorganizace, metamodelbyzstrategie, vydává)
 Rel_Serving(metamodelorganizace, metamodelitstrategie, vydává)
+Rel_Association(metamodelpotreba, metamodelitstrategie), potřebuje
 Rel_Specialization(metamodelitstrategie, metamodelikovs, "pro ovm")
 Rel_Association(metamodelbyzstrategie, metamodelbyzstratcil, určuje)
 Rel_Association(metamodelitstrategie, metamodelitcil, určuje)
 Rel_Association(metamodelitstrategie, metamodelprincip, určuje)
 Rel_Association(metamodelitstrategie, metamodelzasada, určuje)
+Rel_Association(metamodelitstrategie, metamodelprojekt), udává
+Rel_Association(metamodelpotreba, metamodelprojekt, důvod)
 Rel_Association(metamodelprojekt, metamodelitcil, realizuje)
 Rel_Association(metamodelprojekt, metamodelprincip, plní)
 Rel_Association(metamodelprojekt, metamodelzasada, plní)
