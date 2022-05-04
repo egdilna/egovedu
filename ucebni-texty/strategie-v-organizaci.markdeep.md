@@ -11,11 +11,12 @@ Popis jednotlivých prvků:
 * Strategie organizace : Základní závazný vnitřní dokument organizace určující její obecné strategické směřování a podrobnosti k jejímu fungování a stanovující strategické cíle a jejich realizaci.
 * Strategický cíl organizace : Cíl klíčový pro naplnění poslání organizace a pro efektivitu jejího strategického rozvoje a fungování.
 * Strategie rozvoje IT : Základní závazný vnitřní dokument s koncepčním strategickým rámcem pro fungování a rozvoj ICT a aplikací a systémů v organizaci. Mimo jiné, zhodnocuje aktuální stav a jeho problémy, definuje cíle rozvoje IT a principy a zásady pro správu a rozvoj ICT v organizaci a určuje podmínky k jejich realizaci. Zatímco úřad si povinně zpracovává jako tento dokument Informační koncepci, toto je dobrovolný, ale nezbytný dokument jiné organizace, jež není úřadem.
-    * Informační koncepce úřadu : <mark>Informační koncepce zpracovaná podle zákona o ISVS a vyhlášky o dlouhodobém řízení je jediným legálním závazným koncepčním rámcem úřadu.</mark>
+     * Informační koncepce úřadu : <mark>Informační koncepce zpracovaná podle zákona o ISVS a vyhlášky o dlouhodobém řízení je jediným legálním závazným koncepčním rámcem úřadu.</mark>
 * Cíl rozvoje IT : Cíl klíčový pro efektivitu nákladů a přínosů ICT prostředků a správný rozvoj ICT v organizaci.
 * Architektonický princip : Definovaný princip uplatňování nejen v rámci rozvoje architektury, ale především při její realizaci a vynucování a při rozvoji ICT. Je vždy povinně dodržován.
 * Zásada řízení : Definovaná zásada uplatňovaná při řízení rozvoje ICT, je závazná pro jakýkoliv aspekt rozvoje ICT, jehož se týká. Je povinně dodržována.
 * Projekt : Interní projekt organizace, nebo formálně pojatý projekt či aktivita
+* Potřeba nebo důvod motivace : Pojmenovaný důvod nebo potřeba, na základě kterých jsme motivováni přípravu a realizaci něčeho. Kupříkladu potřeba je motivací pro nějaký projekt nebo pro nějaký vnitřní předpis.
 
 Co nám to říká:
 
@@ -30,6 +31,9 @@ Co nám to říká:
 * Projekt je realizací Cíle rozvoje IT : Každý interní projekt ICT musí realizovat alespoň jeden cíl rozvoje, čím více cílů, tím lépe. Realizace cílů se popíše v obsahovém rámci projektu a realizace těchto cílů je také důvodem pro projekt.
 * Projekt je v souladu s Architektonickými principy : Každý připravovaný a realizovaný projekt musí respektovat naše architektonické principy uvedené ve strategii a být s nimi v souladu. To se uvede i v obsahovém záměru a projektové dokumentaci. V případě výjimky se toto řádně odůvodní a postupuje se dle obvyklého procesu schvalování výjimky.
 * Projekt je v souladu se Zásadami řízení : Každý připravovaný a realizovaný projekt musí respektovat naše zásady uvedené ve strategii a být s nimi v souladu. To se uvede i v obsahovém záměru a projektové dokumentaci. V případě výjimky se toto řádně odůvodní a postupuje se dle obvyklého procesu schvalování výjimky.
+
+!!! tip: Uvádění motivačních potřeb
+   Pro každý svůj projekt či aktivitu bychom měli definovat vždy také důvod nebo-li potřebu. Kupříkladu potřeba vědět, co děláme je motivací pro tvorbu strategie a z ní vycházející projekty mají také své důvody a potřeby.
 
 
 <meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
