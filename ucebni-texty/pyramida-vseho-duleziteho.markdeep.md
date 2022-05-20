@@ -63,8 +63,15 @@ Další zdroje a odkazy
 Defacto nám sestavením jednotlivých působností vzniká Mapa veřejné správy, kde je naprosto jasné jaké jsou úřady a co přesné který úřad dělá.
 
 
-### 🖋 Patro Práva a povinnosti
+### KEKOREKTUŘE Patro Práva a povinnosti
 
+Veřejná správa si plní svoje povinnosti a klienti si plní povinnosti a naplňují svá práva, k čemuž právě veřejná správa vykonává činnosti a povinnosti.
+
+Zatímco u jednotlivých agend se povinnosti dají vyčíst z kombinace agendových činností a služeb a úkonů, s obecnými povinnostmi napříč všemi agendami je to složitější.
+
+Znát svoje obecné digitalizační povinnosti je nesmírně důležité. Mimo jiné musí úřady umět si zhodnotit jak si naplňují povinnosti a podle tohoto zhodnocení si upravit realizace ve své informační koncepci. Ale ještě důležitější je povinnosti opravdu naplňovat a to vždy a ve všech oblastech. 
+
+Stejně důležité je znát práva svých klientů, která musí veřejná správa respektovat a nešikanovat je jejich ignorováním či omezováním jejich plnění. Je třeba si uvědomovat, že stát je tu pro klienty a nikoliv naopak.
 
 
 Důležité zdroje a odkazy
@@ -81,7 +88,7 @@ Důležité zdroje a odkazy
 
 ### 🖋 Patro Procesy
 ### 🖋 Patro Propojený datový fond
-### 🖋 Patro Informační systémy veřejné správy
+### KEKOREKTUŘE Patro Informační systémy veřejné správy
 
 Přestože se toto patro nazývá informační systémy veřejné správy, jde prakticky o jakékoliv aplikace a systémy využívané v úřadech.  Jde o to, že všechny aplikace a systémy musí splňovat takové technické požadavky, aby fungovaly konzistentně a předvídatelně a skutečně pomáhali úředníkům a zaměstnancům při jejich práci.
 
@@ -99,6 +106,9 @@ Důležité zdroje a odkazy
 
 Abychom mohli ve veřejné správě fungovat potřebujeme jednak průběžně udržované údaje a jednak sdělení určitých stavů v ćase prostřednictvím dokumentů. Ale nesmíme tyto dva svět zaměňovat a libovolně je nahrazovat.
 
+Údaje jsou aktuální informace s jasným vznikem a zodpovědností patřičného editora spravované a sdílené v informačních systémech. Dokumenty jsou pak statickým obrazem v určitém čase odesílané a přijímané jako neměnné a právně validní otisky informací v čase. 
+
+
 Obecně platí, že:
 
 - Dokumenty a ÚDaje jsou něco jiného a jinak se k nim chováme. Snažíme se vždy úŕadovat nad údaji a dokument využívat jen jako statické zachycení obsahu a údajů v ćase.
@@ -106,7 +116,7 @@ Obecně platí, že:
 - Dokumenty se spravují v elektronických systémech spisové služby, nebo v informačních systémech spravujících dokumenty. Odesílání a doručování dokumentů probíhá jednotlivými komunikačními kanály, především datovými schránkami
 - Pro práci s údaji platí jejich aktuálnost a potřeba správného udržování datového fondu
 - Pro práci s dokumenty platí aktuálnost v okamžiku jejich vyhotovení či doručení
-- Na veškeré činnosti souvisejícímenty se uplatňují procesy výkonu veŕejné správy
+- Na veškeré činnosti související s dokumenty se uplatňují procesy výkonu veŕejné správy
 
 
 Důležité zdroje a odkazy
