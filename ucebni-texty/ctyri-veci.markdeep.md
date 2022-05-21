@@ -2,7 +2,8 @@
 
 - [ ] dopsat úvod
 
-- [ ] kčemu tohle je?
+Tyto čtyři aspekty jsou důležité, aby systémy správně fungovaly a efektivně si měnily údaje. Je to důležité pro architekty a analytiky při sestavování architektury řešení a datové architektury.
+
 
 ### Popis každé oblasti
 
