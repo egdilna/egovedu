@@ -79,15 +79,46 @@ Důležité zdroje a odkazy
 - [stránka Registr práv a povinností z NAP](https://archi.gov.cz/nap:rpp) obsahuje tzv. činnosti a úkony a služby, což je dekompozice jednotlivých zákonů pro jejich agendy (a tedy agendové povinnosti)
 - [nástroj Mapa EG povinností](http://www.egdilna.cz/mapapovinnosti) je seznamem obecných povinností k digitalizaci, z nějž vychází i zhodnocení povinností. Nebo si můžete rovnou otevřít [Webová aplikaci Mapa EG povinností](https://airtable.com/shrXrjDosrC90Pmad/tblNus2OArc8XSVHA)
 
-### 🖋 Patro Služby veřejné správy
+### KEKOREKTUŘE  Patro Služby veřejné správy
+
+To, co děláme ve veřejné správě jsou ve skutečnosti služby. Můžeme je brát jako naše byznysové služby i jako produkty užívané klientem. My službu poskytujeme a klient jí využívá a čerpá. Také poskytujeme služby zbytku veřejné správy a naopak.
+
+Služba má v prostředí EG více významů, nás bude ale zajímat především terím "Služba veřejné správy". Jde o službu poskytovanou jedním čí více úřadu a využitelnou klientem, klient v tomto případě můźe být i jiný úŕad veřejné správy. 
+
+Sližby veřejmé správy jsou formálně pojmenované a jsou poskytovány na základě právních předpisů. Existuje katalog služeb, v němž si kdokoliv může zjistit, jaké služby jsou kde poskytovány. Z tohoto katalogu vycházíme i při digitalizaci služeb.
+
+Každý úřad musí tedy mimo jiné
+
+- znát, které služby veřejné správy musí poskytovat a jak je poskytovat správně
+- zajistit, aby jím poskytované služby splňovaly veškeré nároky a požadavky a byly zcela a striktně podle zákona, včetně EG legislativy
+- znát, které služby ostatních úřadů musí a může využívat pro svoje činnosti
+- znát a využívat a poskytovat sdílené služby, tedy služby vlastních i ostatních agendových ifninfomačních systémů
+- Udržovat podrobné a správné popisy svých služeb pro klienty
+
 
 Důležité zdroje a odkazy
 
 - [stránka Katalog služeb veřejné správy z NAP](https://archi.gov.cz/nap:katalog_sluzeb) dobře popisuje co je to katalog a služba a jak se k tomu chovat
 - [nástroj Veřejná část Katalogu služeb veřejné správy](https://portal.gov.cz/sluzby-verejne-spravy/) umožňuje procházet a zobrazit detaily k jednotlivým službám
+- A ze souvisejících třeba [dokument Příručka‌ ‌plánování‌ ‌digitalizace‌ ‌služeb‌ ‌veřejné‌ ‌správy‌ ‌ČR‌](https://archi.gov.cz/znalostni_baze:digitalni_prirucka)
+
+
 
 ### 🖋 Patro Procesy
-### 🖋 Patro Propojený datový fond
+### KEKOREKTUŘE ) Patro Propojený datový fond
+
+Aby mohla veřejná správa správně a efektivně vykonávat své činnosti a poskytovat funkční služby, potřebuje k tomu příslušné informace. Jedná se zejména o údaje. Údaje evidujeme v příslušných informačních systémech a tyto údaje rozdělujeme na několik kategorií podle jejich vztahu a podle toho, kde vznikají a jak se k nim chováme. Většinu údajů veřejná správa již má a proto je nesmí vyžadovat od klienta. Aby se k údajům ale jednotlivé úřady dostali, musí být správně nastavený a funkční mechanizmus jejich výměny, tomu říkáme Sdílení údajů v rámci takzvaného propojeného datového fondu. 
+
+PPDF je tedy fakticky výměna údajů, tedy na jedné straně řádné poskytování důvěryhodných údajů zbytku veřejné správy a na druhé straně využívání údajů potřebných k výkonu činnosti úřadu z jiných agent resp. z cizích agendových informačních systémů.
+
+Důležité zdroje a odkazy
+
+- Prvním zdrojem je [stránka Propojený datový fond veřejné správy z NAP](https://archi.gov.cz/nap:propojeny_datovy_fond)
+- Podívejte se také na stránku [Globální architektura propojeného datového fondu](https://archi.gov.cz/znalostni_baze:ga_ppdf)
+- [stránka Sdílení údajů veřené správy z NAP](https://archi.gov.cz/nap:sdileni_udaju) popisuje výměnu v rámci PPDF
+
+
+
 ### KEKOREKTUŘE Patro Informační systémy veřejné správy
 
 Přestože se toto patro nazývá informační systémy veřejné správy, jde prakticky o jakékoliv aplikace a systémy využívané v úřadech.  Jde o to, že všechny aplikace a systémy musí splňovat takové technické požadavky, aby fungovaly konzistentně a předvídatelně a skutečně pomáhali úředníkům a zaměstnancům při jejich práci.
