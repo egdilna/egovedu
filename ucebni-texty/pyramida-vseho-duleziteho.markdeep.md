@@ -104,12 +104,32 @@ Důležité zdroje a odkazy
 
 
 
-### 🖋 Patro Procesy
+### KEKOREKTUŘE  Patro Procesy
+
+Uvnitř úřadu se činnosti realizují jeho byznysovými procesy. Proto je nezbytné jednak zavádět procesní řízení samotného úřadu, ale také dobře popsat a znát procesy v agendách.
+
+- Existují tři hlavní druhy procesů v úřadu a to
+    1. Činnosti výkonu veřejné správy
+    2. Veřejnoprávní činnosti a procesy
+    3. Provozní činnosti a procesy
+- Nutné jsou dobře nastavené a dostatečně efektivní procesy vnitřního řízení úřadu.
+- Procesy v rámci agend se standardizovaně modelují a působící úřady tyto modely respektují a využívají, tomu se říká Procesní modelování agend.
+
+
+
+
 ### KEKOREKTUŘE ) Patro Propojený datový fond
 
 Aby mohla veřejná správa správně a efektivně vykonávat své činnosti a poskytovat funkční služby, potřebuje k tomu příslušné informace. Jedná se zejména o údaje. Údaje evidujeme v příslušných informačních systémech a tyto údaje rozdělujeme na několik kategorií podle jejich vztahu a podle toho, kde vznikají a jak se k nim chováme. Většinu údajů veřejná správa již má a proto je nesmí vyžadovat od klienta. Aby se k údajům ale jednotlivé úřady dostali, musí být správně nastavený a funkční mechanizmus jejich výměny, tomu říkáme Sdílení údajů v rámci takzvaného propojeného datového fondu. 
 
 PPDF je tedy fakticky výměna údajů, tedy na jedné straně řádné poskytování důvěryhodných údajů zbytku veřejné správy a na druhé straně využívání údajů potřebných k výkonu činnosti úřadu z jiných agent resp. z cizích agendových informačních systémů.
+
+- OVM jež disponuje agendovými údaji je prostřednictvím svých agendových systémů publikuje ven
+- Ostatní OVM pokud tyto údaje potřebují pro svoji působnost i bez nutnosti konkrétního zákonného zmocnění si zajistí využívání těchto údajů svými agendovými systémy
+- Komunikace mezi publikujícím a čtenářským systémem neprobíhá nikdy napřímo, ale jen se vyměňují datové věty s údaji a to prostřednictvím EGSB referenčního rozhraní.
+- Sezjam oprávnění k údajům je udržován v rámci ohlášení agend v Registru práv a povinností
+
+
 
 Důležité zdroje a odkazy
 
