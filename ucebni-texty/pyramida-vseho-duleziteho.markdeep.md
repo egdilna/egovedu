@@ -124,6 +124,9 @@ Aby mohla veřejná správa správně a efektivně vykonávat své činnosti a p
 
 PPDF je tedy fakticky výměna údajů, tedy na jedné straně řádné poskytování důvěryhodných údajů zbytku veřejné správy a na druhé straně využívání údajů potřebných k výkonu činnosti úřadu z jiných agend, resp. z cizích agendových informačních systémů.
 
+![Obrázek [ppdfsdileniudajuareklamace]: Schéma sdílení údajů PPDF a reklamací, Zdroj: Národní architektura eGovernmentu - OHA MVČR](https://archi.gov.cz/_media/znalostni-baze:ga_ppdf2.jpg)
+
+
 - OVM, jež disponuje agendovými údaji, je prostřednictvím svých agendových systémů publikuje ven
 - Ostatní OVM, pokud tyto údaje potřebují pro svoji působnost i bez nutnosti konkrétního zákonného zmocnění, si zajistí využívání těchto údajů svými agendovými systémy
 - Komunikace mezi publikujícím a čtenářským systémem neprobíhá nikdy napřímo, ale jen se vyměňují datové věty s údaji, a to prostřednictvím EGSB referenčního rozhraní.
