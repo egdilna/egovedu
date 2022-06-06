@@ -7,7 +7,6 @@ end footer
 !include <archimate/archimate>
 left to right direction
 Business_Actor(metamodelorganizace, "Organizace") 
-Motivation_Driver(metamodelpotreba, "Potřeba nebo důvod motivace") 
 Business_Contract(metamodelbyzstrategie, "Strategie organizace") 
 Business_Contract(metamodelitstrategie, "Strategie rozvoje IT") 
 Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
@@ -18,14 +17,11 @@ Motivation_Principle(metamodelzasada, "Zásada řízení")
 Implementation_WorkPackage(metamodelprojekt, "Projekt") 
 Rel_Serving(metamodelorganizace, metamodelbyzstrategie, vydává)
 Rel_Serving(metamodelorganizace, metamodelitstrategie, vydává)
-Rel_Association(metamodelpotreba, metamodelitstrategie), potřebuje
 Rel_Specialization(metamodelitstrategie, metamodelikovs, "pro ovm")
 Rel_Association(metamodelbyzstrategie, metamodelbyzstratcil, určuje)
 Rel_Association(metamodelitstrategie, metamodelitcil, určuje)
 Rel_Association(metamodelitstrategie, metamodelprincip, určuje)
 Rel_Association(metamodelitstrategie, metamodelzasada, určuje)
-Rel_Association(metamodelitstrategie, metamodelprojekt), udává
-Rel_Association(metamodelpotreba, metamodelprojekt, důvod)
 Rel_Association(metamodelprojekt, metamodelitcil, realizuje)
 Rel_Association(metamodelprojekt, metamodelprincip, plní)
 Rel_Association(metamodelprojekt, metamodelzasada, plní)
@@ -110,4 +106,46 @@ Grouping(groupingskupinyudajusu, "Skupiny údajů o subjektu") {
     Application_DataObject(udajeprocesni, "Procesní údaje") 
     Application_DataObject(udajeprovozni, "Provozní údaje") 
 }
+@enduml
+
+@startuml prehledikovsadopceikcr
+title Adopce a vztah IKČR a IK úřadutitle Adopce a vztah IKČR a IK úřadu
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+!include <archimate/archimate>
+left to right direction
+Business_Actor(mv, "Ministerstvo vnitra") 
+Business_Contract(ikcr, "Informační koncepce ČR") 
+Rel_Association(mv, ikcr)
+
+Business_Actor(ovm, "Orgán veřejné moci") 
+Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
+Grouping(groupingikcrovmitcile, "Cíle rozvoje ITúřadu")  {
+    Grouping(groupingikcrcile, "Národní cíle IKČR ") 
+    Motivation_Goal(itciladopcepzikcr, "Řádná adopce architektonických principů a zásad řízení z informační koncepce Čr") 
+    Motivation_Goal(itcilnasecilecileikcr, "Stanovení cílů a realizace projektů pro naplnění národních cílů z IKČR") 
+    Motivation_Goal(metamodelitcil, "Cíl rozvoje IT") 
+}
+Grouping(groupingikcrovmitpz, "Principy a zásady úřadu") {
+    Grouping(groupingikcrarchprincipy, "Národní  architektonické principy") 
+    Grouping(groupingikcrzasady, "Národní  zásady řízení") 
+    Motivation_Principle(metamodelprincip, "Architektonický princip") 
+    Motivation_Principle(metamodelzasada, "Zásada řízení") 
+}
+Implementation_WorkPackage(metamodelprojekt, "Projekt") 
+Rel_Composition(ikcr, groupingikcrarchprincipy)
+Rel_Composition(ikcr, groupingikcrcile)
+Rel_Composition(ikcr, groupingikcrzasady)
+
+Rel_Association(ovm, metamodelikovs)
+Rel_Realization(metamodelikovs, metamodelprincip)
+Rel_Realization(metamodelikovs, metamodelzasada)
+Rel_Aggregation(ikcr, metamodelikovs)
+Rel_Composition(metamodelikovs, groupingikcrovmitcile)
+Rel_Composition(metamodelikovs, groupingikcrovmitpz)
+Rel_Association(metamodelikovs, metamodelprojekt)
+Rel_Association(metamodelikovs, ovm)
+Rel_Specialization(metamodelitstrategie, metamodelikovs)
 @enduml
