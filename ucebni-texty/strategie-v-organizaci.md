@@ -36,4 +36,3 @@ Co nám to říká:
    Pro každý svůj projekt či aktivitu bychom měli definovat vždy také důvod nebo-li potřebu. Kupříkladu potřeba vědět, co děláme je motivací pro tvorbu strategie a z ní vycházející projekty mají také své důvody a potřeby.
 
 
-<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
