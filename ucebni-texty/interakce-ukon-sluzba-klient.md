@@ -43,4 +43,3 @@ Tedy lze obecně konstatovat, že veřejná správa nemá práva jako taková. N
 
 Toto bývá mnohdy velice špatně pochopitelné. Pro účely pochopení fungování úřadu, zejména pro potřeby zpracování a řízení jeho procesů a činností a architektury, je tohle ale jasná pravda, se kterou se dá dobře pracovat.
 
-<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>

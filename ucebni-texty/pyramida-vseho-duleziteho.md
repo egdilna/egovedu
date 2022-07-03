@@ -175,9 +175,8 @@ Obecně platí, že:
 
 Důležité zdroje a odkazy
 
-- Pro lepší pochopení rozdílů mezi údaji a dokumenty může posloužit třeba [učební text Čtyři klíčové věci, na něž myslet - EGOVedu učební texty](https://github.com/egdilna/egovedu/blob/main/ucebni-texty/ctyri-veci.markdeep.md)
+- Pro lepší pochopení rozdílů mezi údaji a dokumenty může posloužit třeba [učební text Čtyři klíčové věci, na něž myslet - EGOVedu učební texty](https://github.com/egdilna/egovedu/blob/main/ucebni-texty/ctyri-veci.md)
 - [stránka Veřejný datový fond VS z NAP](https://archi.gov.cz/nap:verejny_datovy_fond) a [stránka Otevřená data z NAP](https://archi.gov.cz/nap:otevrena_data) vysvětlují veřejně přístupná data pro každého
 - Pro úřady je nezbytností [stránka Propojený datový fond veřejné správy z NAP](https://archi.gov.cz/nap:propojeny_datovy_fond) což je základem ke sdílení údajů.
 - Je dobré se podívat i na [Sdílení údajů veřejné správy z NAP](https://archi.gov.cz/nap:sdileni_udaju) a [Systém správy dokumentů z NAP](https://archi.gov.cz/nap:system_spravy_dokumentu)
 
-<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>

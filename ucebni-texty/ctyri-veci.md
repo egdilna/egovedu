@@ -1,6 +1,7 @@
 ## Čtyři klíčové věci na něž myslet: Předmět, Údaj, Dokument, Vazba
 
-- [ ] dopsat úvod
+Ať už jsme architekti a připravujeme komplexní změnu v úřadu a nebo jsme analytici u dodavatelské firmy, musíme se naučit myslet komplexně a ze všech stran.
+
 
 Tyto čtyři aspekty jsou důležité, aby systémy správně fungovaly a efektivně si měnily údaje. Je to důležité pro architekty a analytiky při sestavování architektury řešení a datové architektury.
 
@@ -82,5 +83,3 @@ Po technické stránce za vazbu považujeme integraci na zdroje dat při využí
 - Souvislosti na dokument: Dokument je spravován a evidován v ESSL, tedy úkony spojené s dokumentem se realizují prostřednictvím rozhraní ESSL. Dokument má vazbu na spis, jež může obsahovat další dokumenty. Dokument má vazbu dále na subjekty, kterých se týká, a to odesílatele, příjemce a dotčené subjekty, tyto vazby se evidují ve Jmenném rejstříku v ESSL.
 - Souvislosti na vazby: Klíčové jsou byznysové vazby z byznys vrstvy architektury a technické vazby uskutečňující integraci dané komponenty či systému. Integrace je vnitřní (na systémy téhož správce) a vnější (na systémy jiného správce prostřednictvím eGSB a referenčního rozhraní).
 
-<meta lang="cz" charset="utf-8"><style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'none', autoLinkImages: false, definitionStyle: 'short'};</script><!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
- 
