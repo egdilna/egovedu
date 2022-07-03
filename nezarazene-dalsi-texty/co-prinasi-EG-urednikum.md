@@ -5,7 +5,8 @@ Neustále se hovoří o přínosech elektronizace veřejné správy pro klienty 
 
 
 
-EG musí fungovat pro obě strany. Moderní a správně konstruované informační systémy musejí maximálně omezit nutnost úředníků dělat opakované administrtivní a procesní úkony, které za ně musí dělat sám systém. 
+EG musí fungovat pro obě strany. Moderní a správně konstruované informační systémy musejí maximálně omezit nutnost úředníků dělat opakované administrativní a procesní úkony, které za ně musí dělat sám systém.  Navíc se musí omezit tvořivost úředníků a s tím spojené riziko nesprávného či protizákonného postupu. A samozřejmě, úředníkovi musí informační systém zprostředkovat takové údaje, aby podle nich mohla být opravdu poskytována kvalitní a efektivní služba veřejné správy.
+
 
 [Diagram Schéma produktů pro úředníky](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/coegnabiziurednikum.png)
 
