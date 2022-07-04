@@ -23,7 +23,7 @@ Na úrovni úřadu pak má tento svojí informační koncepci. Zde je povinnost 
 
 ### Koncepce úřadu versus Informační koncepce ČR
 
-DOPSAT úvod do části IKOVS a adopce
+
 
 ![Vztah IKČR a IK úřadu, Zdroj: Učební texty EGOVedu - EGdílna](https://github.com/egdilna/egovedu/raw/main/diagramy/metamodely/prehledikovsadopceikcr.png)
 
