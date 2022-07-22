@@ -9,7 +9,8 @@ Tyto čtyři aspekty jsou důležité, aby systémy správně fungovaly a efekti
 ### Popis každé oblasti
 
 Definujeme si následující čtyři rámcové oblasti:
-#### Předmět
+
+##### Předmět
 
 - Popis:    Subjekt kterého se věc týká, nebo objekt práva jež daná věc řeší
 - Kroky:    Vždy musí být jasné zda a kterých subjektů a objektů práva se daná věc týká a musí být jasná vazba na tyto subjekty a objekty.
@@ -23,9 +24,11 @@ Na úrovni objektového řešení je předmět objektem, kde subjekt má třídu
 Subjekt práva, nebo jen subjekt, je aktérem (v některých případech role) ve smyslu business vrstvy modelu v Archimate, ve fyzickém se jedná o skutečného člověka přicházejícího do interakce. Subjekt má dále referenční odkaz do základních registrů, jako klíčovou vazbu.
 
 Objekt práva, nebo jen objekt, je skutečným business objektem ve smyslu business vrstvy architektury modelu Archimate, ve fyzickém světě je to skutečná věc, kterou úřad dodá či vykoná, například přiznání dávky občanovi.
-#### Údaj
-- :Popis:    Údaj se kterým se při dané věci pracuje, ať už je to vlastní údaj, nebo údaj využívaný odjinud či údaj poskytovaný jinam
-- :Kroky:    U všeho je nezbytné vědět alespoň jakých skupin údajů a údajů se věc týká. Má být jasné, kde se údaje berou, kdo je za ně zodpovědný, jakou míru důvěry mají a jak se využívají pro byznysové splnění.
+
+##### Údaj
+
+- Popis:    Údaj se kterým se při dané věci pracuje, ať už je to vlastní údaj, nebo údaj využívaný odjinud či údaj poskytovaný jinam
+- Kroky:    U všeho je nezbytné vědět alespoň jakých skupin údajů a údajů se věc týká. Má být jasné, kde se údaje berou, kdo je za ně zodpovědný, jakou míru důvěry mají a jak se využívají pro byznysové splnění.
 
 
 Vždy pracujeme s informacemi, kdy naprostá většina informací jsou spravované a vedené údaje. Údaj a skupina údajů by měla být jasná na byznysové vrstvě i na aplikační vrstvě, která nás při tvorbě informačního systému zajímá víc.
@@ -37,12 +40,16 @@ Každý údaj musí být vázaný na konkrétní subjekt(y) či objekt(y) tedy v
 Vlastní údaj je takový údaj, který jsem vytvořil v konkrétní roli, tento údaj je buď určen k výhradnímu užití mnou, případně je to údaj, který jsem vytvořil a poskytuji ho v rámci propojeného datového fondu, tudíž z pohledu propojeného datového fondu je to poskytovaný údaj. Pokud je tento údaj v rámci propojeného datového fondu konzumován, je z pohledu konzumenta „poskytovaný údaj“.
 
 Vztah k údaji je dále definován jako Primární editor, Sekundární editor, Správce, Konzument. Dále pak má údaj mimo jiné attributy Spárovaný (údaj mající vazbu na subjekt nebo objekt), Provozní (údaj sloužící k provozu vlastního systému).
-#### Dokument
+##
+## Dokument
+
 - Popis:    Dokument jako nosič statické informace zakotvené v konkrétním čas, ať už jde o dokument doručený nebo dokument vzniklý z vlastní činnosti
 - Kroky:    Pokud se v dané věci pracuje s dokumentem (ať už digitálním či analogovým), musíte to vědět a umět s tím pracovat. Zvlášť v situaci, kdy je dokument výstupem dané věci.
 
 Dokumentem se v tomto kontextu myslí opravdu formalizovaný dokument. Dokument je vlastně reprezentace údajů a informací zafixovaná v čase. Ve veřejné správě se rozlišuje mezi doručeným dokumentem (od někoho jiného a já ho eviduji a spravuji a využívám z něj informace) a dokumentem vlastním (já ho vytvářím s využitím evidovaných údajů a odesílám ho ven). Rámec pro správu dokumentů je zase pro veřejnou správou velice úzký a je třeba ho respektovat opravdu vždy.
-#### Vazba
+
+##### Vazba
+
 - Popis: Vazba ve formě jakékoliv integrace či propojování údajů nebo služeb. Jde buď o technickou integraci na aplikační úrovni, nebo o byznysovou vazbu
 - Kroky: Přes abstraktnost pojmu Vazby by měly být u každé věci známé byznysové vazby jako závislosti a aplikační a technické vazby jako integrace na technické úrovni a třeba i vazby na určité údaje či evidence a jak je získat a jak s nimi pracovat. Klíčové jsou zejména integrace na další komponenty a systémy.
 
@@ -51,6 +58,7 @@ Význam vazba je v našem případě trochu složitější a proto bude jeho roz
 Za vazbu na byznysové úrovni můžeme považovat jakoukoliv důležitou souvislost (dependency), na kterou je třeba myslet. Kupříkladu vazba u klientského subjektu je "Referenční identia ze základních registrů" a musíme myslet na to, abychom splnili související povinnosti. Obecně povinnosti a jejich splnění jsou docela klíčovými vazbami. Ve sféře ISVS jsou obdobně důležité vazby i na subjekt a objekt o které se jedná.
 
 Po technické stránce za vazbu považujeme integraci na zdroje dat při využívání údajů a na čtenáře při poskytování údajů. Tedy jak technickou vazbu díky které se uskutečňuje výměna údajů, tak ale i vazbu na údaje v určitém systému a evidenci.
+
 ### Souvislosti mezi předmětem a údajem a dokumentem a vazbami
  Už jsme si řekli, že všechno souvisí se vším. V dalších odstavcích si detailně rozebereme souvislosti všech čtyř oblastí mezi sebou, což je velice důležité.
 
