@@ -7,8 +7,9 @@ footer
 github.com/egdilna/egovedu
 end footer
 
-Business_Contract(legislativazakon3652000, "Zákon 365/2000 o ISVS") Business_Contract(ikcr, "Informační koncepce ČR") 
-Business_Contract(legislativavyhlaska5292006, "Vyhláška 529/2006 o dlouhodobém řízení IS") Business_Contract(ikcr, "Informační koncepce ČR") 
+Business_Contract(legislativazakon3652000, "Zákon 365/2000 o ISVS") 
+Business_Contract(legislativavyhlaska5292006, "Vyhláška 529/2006 o dlouhodobém řízení IS") 
+Business_Contract(ikcr, "Informační koncepce ČR") 
 Business_Actor(ovm, "Orgán veřejné moci") 
 Business_Contract(ikcrmrict, "Metody řízení ICT VS") 
 Business_Contract(ikcrnap, "Národní architektonický plán") 

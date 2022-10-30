@@ -32,7 +32,7 @@ Další zdroje a odkazy
 - Až bude někdy fungovat eSbírka, bude správným autoritativním zdrojem právního rámce v ČR.
 - Do té doby se jako nejlepší řešení s nejvíce funkcemi jeví [nástroj Zákony pro lidi](https://www.zakonyprolidi.cz)
 - Mrkněte se i do Národní architektury, kde se tomu věnuje třeba [stránka Systémy a služby spojené s právním řádem z NAP](https://archi.gov.cz/nap:systemy_sluzby_spojene_pravnim_radem_legislativou)
-- Co se týče EG legislativy, prvním zdrojem informací je [dokument Podrobný popis vybraných EG předpisů](http://www.openczeg.cz//otevrene-metodiky/legislativa/eg-legislativa-podrobny-popis/)
+- Co se týče EG legislativy, prvním zdrojem informací je [dokument Podrobný popis vybraných EG předpisů](http://www.egdilna.cz/metodiky/eg-legislativa.html)
 
 
 
