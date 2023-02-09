@@ -1,28 +1,30 @@
 @startgantt casovaosaeg
 language cs
 projectscale quarterly
-Project starts 2022-12-01
-[ISVS: ❓Meziresortní připomínkování vyhlášky] starts 2022-12-15 and ends 2023-01-31
+Project starts 2021-01-01
+[PDS: Platnost zákona o PDS] happens 2020-02-01
+[PDS: Postupná digitalizace služeb] starts 2021-02-01 and ends 2025-02-01
+[PDS: Účinnost ostatních práv z PDS] happens 2022-02-01
+[ISVS: Meziresortní připomínkování vyhlášky] starts 2023-02-08 and ends 2023-03-31
 [INF: Povinnosti zákona 106/1999 i pro nové subjekty] starts 2023-01-01
-[DIA: ❓Očekávaná platnost nových zákonů] starts 2023-01-01
-[DIA: ❓ Vznik DIA] happens 2023-03-01
+[DIA: Platnost nových zákonů] starts 2023-04-01
+[DIA: Vznik DIA] happens 2023-04-01
 [ISVS: Účinnost nové vyhlášky o řízení ICT] starts 2023-07-01
 [ISVS: IK nových subjektů podle zákona o ISVS] ends 2023-12-31
 [ISVS: Všichni svoje IK a ISVS v souladu s novou vyhláškou] ends 2024-12-31
 [INF: Zajistit zveřejňování vše jako opendata] ends 2023-12-31
 [IKČR: Vytvoření mechanismu zpětné vazby na služby EG (DC 1.7)] ends 2023-09-30
 [IKČR: U poloviny služeb státu sjednocené UX/UI (DC 1.8)] ends 2022-06-30 
+[ISVS: celý Propojený datový fond] happens 2025-02-01
 [PDS: Povinná digitalizace veškerých služeb dle PDS] happens 2025-02-01
 [IKČR: Sjednocené UI/UX webových stránek úřadů (DC 1.8)] ends 2025-09-30 
 [IKČR: Sjednotit UI/UX u všech digitálních služeb státu (DC 1.8)] ends 2027-06-30
-
 legend
 ISVS: Věci podle zákona 365/2000 a vyhlášek
 IKČR: Termíny z Informační koncepce ČR
 INF: Termíny k zákonu 106/1999 a otevřeným datům
 DIA: Věci k Digitální a informační agentuře
 end legend
-
 @endgantt
 
 egl0ridicidokumenty
