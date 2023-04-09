@@ -1,3 +1,15 @@
+---
+layout: default
+title: Učebnní text Čtyři věci na něž myslet při rozvoji čehokoliv
+subtitle: "Přinášíme zhuštěný text o tzv. čtyřech dohodách rozvoje nejen pro ICT ve veřejné správě. Defunujeme si čtyři oblasti a podrobně si je rozebereme i se souvislostmi.""
+parent: Učební texty
+nav_order: 11
+grand_parent: Výuka EG
+last_updated: 2022-06-30
+---
+
+
+
 ## Čtyři klíčové věci na něž myslet: Předmět, Údaj, Dokument, Vazba
 
 Ať už jsme architekti a připravujeme komplexní změnu v úřadu a nebo jsme analytici u dodavatelské firmy, musíme se naučit myslet komplexně a ze všech stran.

@@ -1,7 +1,3 @@
----
-title: EGOVedu repository readme
-tags: [rozpracované, dodělat, readme, nedůležité]
----
 
 # egovedu
 eGOVedu podklady

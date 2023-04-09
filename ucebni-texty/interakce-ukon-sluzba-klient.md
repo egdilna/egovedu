@@ -1,3 +1,14 @@
+---
+layout: default
+title: Učebnní text Interakce mezi veřejnou správou a klientem
+subtitle: "Učební text - veřejná správa interaguje s klientem, k čemuž definuje služby a úkony, přehledné to vysvětluje i s podrobnostmi tento učební text"
+parent: Učební texty
+nav_order: 2
+grand_parent: Výuka EG
+last_updated: 2022-07-22
+---
+
+
 ## Interakce mezi veřejnou správou a klientem, služby a úkony, práva a povinnosti
 
 Nejčastější formou interakce veřejné správy a klienta, a to v obecném smyslu, je činění úkonu a poskytování služby. O názorný přehled se pokusí následující diagram.
