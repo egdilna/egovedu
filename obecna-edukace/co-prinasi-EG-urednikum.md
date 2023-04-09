@@ -1,3 +1,12 @@
+---
+layout:default
+title: Co EG projekty přináší úředníkům
+description: Text s informace o jednotlivých hlavních produktech EG a jejich přínosu pro úředníky jako klíčovou cílovou skupinu efektivizace veřejné správy
+nav_order: 13
+parent: Obecná edukace
+---
+
+
 ## Co EG projekty přináší úředníkům
 
 Neustále se hovoří o přínosech elektronizace veřejné správy pro klienty - tedy pro občany, podnikatele, apod. Nicméně je třeba dělat především takové věci, které pomohou opravdu všem. Zapomínáme trochu na úředníky a samotné úřady. Zatímco úřady vydávají desítky až stovky milionů korun za poněkud neprůhledný a nejasný rozvoj ICT prostředků a systémů, musí se to odrazit také ve snížení zátěže zaměstnanců vykonávajících veřejnou správu a zajišťujících poskytování služeb.

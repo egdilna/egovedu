@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Učebnní text Strategický rámec pro rozvoj IT v organizaci
-subtitle: "Organizace jakéhokoliv typu by měla fungovat na principu strategického řízení. Ve veřejné správě je povinným strategickým dokumentem Informační koncepce úřadu. Nicméně principy významu strategie jsou stejné jak pro veřejnou správu, tak i pro komerční organizace."
+description: "Organizace jakéhokoliv typu by měla fungovat na principu strategického řízení. Ve veřejné správě je povinným strategickým dokumentem Informační koncepce úřadu. Nicméně principy významu strategie jsou stejné jak pro veřejnou správu, tak i pro komerční organizace."
 parent: Učební texty
 nav_order: 3
 grand_parent: Výuka EG

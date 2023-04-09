@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Učebnní text Interakce mezi veřejnou správou a klientem
-subtitle: "Učební text - veřejná správa interaguje s klientem, k čemuž definuje služby a úkony, přehledné to vysvětluje i s podrobnostmi tento učební text"
+description: "Učební text - veřejná správa interaguje s klientem, k čemuž definuje služby a úkony, přehledné to vysvětluje i s podrobnostmi tento učební text"
 parent: Učební texty
 nav_order: 2
 grand_parent: Výuka EG

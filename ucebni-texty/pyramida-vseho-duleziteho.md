@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Učebnní text Pyramida všeho důležitého
-subtitle: Učební text - podíváme se na pyramidu jednotlivých klíčových vrstev a o každé vrstvě se dozvíme spoustu informací
+description: Učební text - podíváme se na pyramidu jednotlivých klíčových vrstev a o každé vrstvě se dozvíme spoustu informací
 parent: Učební texty
 nav_order: 1
 grand_parent: Výuka EG
