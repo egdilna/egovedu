@@ -2,7 +2,7 @@ lang: cs
 theme: just-the-docs
 title: EGOVedu
 description: "egovedu.cz Vzdělávání v eGovernmentu (EGOVernment EDUkace)"
-url: "http://www.egovedu.cz"
+url: "http://www.egdilna.github.io/egovedu"
 repository: egdilna/egovedu
 aux_links:
   EGdílna: https://www.egdilna.cz
@@ -25,6 +25,6 @@ footer_content: "Copyright &copy; 2022-2023 <a href=https://www.egdilna.cz>EGdí
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%d.%m.%Y"
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Navrhněte změny obsahu..."
+gh_edit_link_text: "Originál dokumentu"
 gh_edit_repository: "https://github.com/egdilna/egovedu"
 gh_edit_branch: "work"
