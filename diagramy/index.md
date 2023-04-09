@@ -10,7 +10,7 @@ Připravili jsme diagramy a obrázky, které kdokoliv může dle volné otevřen
 
 Diagramy jsou vytvářeny a spravovány na GITu a najdete je ve složce na adrese
 
-[http://github.com/egdilna/egovedu/diagramy](http://github.com/egdilna/egovedu/diagramy)
+[https://github.com/egdilna/egovedu/tree/main/diagramy](https://github.com/egdilna/egovedu/tree/main/diagramy)
 
 Nejlepší je se odkazovat přímo vždy na diagram pomocí veřejné URL, která vypadá takto
 

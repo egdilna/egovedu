@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 title: Co EG produkty přináší úředníkům
 description: Text s informace o jednotlivých hlavních produktech EG a jejich přínosu pro úředníky jako klíčovou cílovou skupinu efektivizace veřejné správy
 nav_order: 13
