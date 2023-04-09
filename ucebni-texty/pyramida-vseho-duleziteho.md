@@ -1,3 +1,13 @@
+---
+title: Pyramida všeho důležitého
+subtitle: Učební text - podíváme se na pyramidu jednotlivých klíčových vrstev a o každé vrstvě se dozvíme spoustu informací
+parent: Učební texty
+nav_order: 1
+grand_parent: Výuka EG
+last_modified: 2022-11-14
+---
+
+
 ## Pyramida všeho důležitého
 
 Vyznat se ve všem, co je třeba mít na paměti úřadu, je složité. Chtělo by to nějaký zapamatovatelný způsob a něco, čím to lze přiblížit normálním lidem v lidštině.

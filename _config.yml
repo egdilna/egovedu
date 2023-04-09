@@ -1,0 +1,30 @@
+lang: cs
+theme: just-the-docs
+title: EGOVedu
+description: "egovedu.cz Vzdělávání v eGovernmentu (EGOVernment EDUkace)"
+url: "http://www.egovedu.cz"
+repository: egdilna/egovedu
+aux_links:
+  EGdílna: https://www.egdilna.cz
+  EGOVedu: https://www.egovedu.cz
+
+heading_anchors: false
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 10
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+back_to_top: true
+back_to_top_text: "Zpátky nahoru"
+footer_content: "Copyright &copy; 2022-2023 <a href=https://www.egdilna.cz>EGdílna</a>"
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%d.%m.%Y"
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Navrhněte změny obsahu..."
+gh_edit_repository: "https://github.com/egdilna/egovedu"
+gh_edit_branch: "work"
