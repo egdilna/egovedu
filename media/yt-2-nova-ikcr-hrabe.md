@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "EGOVedu Pavel Hrabě představil v prosinci změny v Informační koncepci ČR
+title: "EGOVedu Pavel Hrabě představil v prosinci změny v Informační koncepci ČR"
 description: Zvukový záznam z představování nové verze Informační koncepce ČR projednávané na PSA RVIS v prosinci 2022co a jak
 nav_order: 2
 parent: EGOVedu na Youtube
