@@ -3,7 +3,7 @@
 <ul>
   {% for child in include.toc_list %}
     <li>
-      <a href="{{ child.url | relative_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+      <a href="{{ child.url | relative_url }}">{{ child.title }}</a>{% if child.description %} <br> {{ child.description }}{% endif %}
     </li>
   {% endfor %}
 </ul>
