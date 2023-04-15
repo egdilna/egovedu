@@ -15,6 +15,6 @@ Vzdělávání v eGovernmentu
 
 <ul>
 {% for novinka in site.data.novinky %}
-<li>{{ novinka.datum }}: }} novinka.text }}</li>
+<li>{{ novinka.datum }}: {{ novinka.text }}</li>
 {% endfor %}
 </ul>
