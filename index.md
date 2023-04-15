@@ -11,3 +11,10 @@ EGOVernment EDUkace
 Vzdělávání v eGovernmentu
 
 
+### Co je tady nového
+
+<ul>
+{% for novinka in site.data.novinky %}
+<li>{{ novinka.datum }}: }} novinka.text }}</li>
+{% endfor %}
+</ul>
