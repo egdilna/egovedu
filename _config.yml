@@ -26,5 +26,5 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%d.%m.%Y"
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Originál dokumentu"
-gh_edit_repository: "https://github.com/egdilna/egovedu"
+gh_edit_repository: "https://github.com/egdilna/egovedu/blob"
 gh_edit_branch: "work"
