@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Učebnní text Čtyři věci na něž myslet při rozvoji čehokoliv
-description: "Přinášíme zhuštěný text o tzv. čtyřech dohodách rozvoje nejen pro ICT ve veřejné správě. Defunujeme si čtyři oblasti a podrobně si je rozebereme i se souvislostmi.""
+description: "Přinášíme zhuštěný text o tzv. čtyřech dohodách rozvoje nejen pro ICT ve veřejné správě. Defunujeme si čtyři oblasti a podrobně si je rozebereme i se souvislostmi."
 parent: Učební texty
 nav_order: 11
 grand_parent: Výuka EG
