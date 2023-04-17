@@ -19,3 +19,5 @@ Seminář by měl sestávat ze tří částí:
 Při sestavování semináře a jeho provádění důrazně doporučujeme využít následující odkaz na podklady, aby byly vždy aktuální. 
 
 [Otevřít podklady pro seminář PDS Co se musí udělat](https://egovedukb.tiddlyhost.com/#%F0%9F%93%95%20Semin%C3%A1%C5%99%20PDS%20a%20digitalizace%20slu%C5%BEeb)
+
+A jako vždy, pokud byste potřebovali seminář doplnit či upravit podklady, obraťte se na nás třeba vytvořením nového úkolu na Githubu.
