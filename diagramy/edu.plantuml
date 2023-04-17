@@ -151,3 +151,53 @@ Rel_Association(egproduktfylozoficky15, stakeholderurednici)
 Rel_Association(egproduktfylozoficky16, stakeholderurednici)
 Rel_Association(egproduktfylozoficky17, stakeholderurednici)
 @enduml 
+
+urovnezaklpravklienta
+@startuml urovnezaklpravklienta
+title Úroveň a vztahy práv
+left to right direction
+PACKAGE "Ústava (1/1993)" as ustava {
+    ABSTRACT "Regulovaná státní moc" as regmoc {
+        čl. 2 odst. 3
+    }
+    ABSTRACT "Zabránění nezákonnosti" as nezak {
+        čl. 2 odst. 4
+    }
+    ABSTRACT "Veřejná moc výhradně podle zákona" as vmzak {
+        čl 79 odst 2
+    }
+}
+PACKAGE "Listina základních práv a svobod (2/1993)" as listprav {
+    ABSTRACT "Právo domáhat se svých práv" as pravlps {
+        čl. 36 odst. 1
+    }
+    ABSTRACT "Právo soudního přezkumu rozhodnutí veřejné správy" {
+        čl. 36 odst. 2
+    }
+    ABSTRACT "Právo na odškodnění veřejnou mocí" {
+        čl. 36 odst. 3
+    }
+}
+PACKAGE "Procesně správní předpisy" as sprav {
+    ABSTRACT "Obecné zásady správního práva" as pravobzas {
+        zákon 500/2004
+        - Správní orgány postupují jen dle zákonů a mezinárodních smluv
+        - Správní orgán šetří a respektuje práva osob
+        - Správní orgán má povinnost vycházet vstříc
+    }
+    ABSTRACT "Veřejná správa je službou veřejnosti" as vssluzba {
+        § 4 odst. 1 zákona 500/2004
+    }
+    ABSTRACT "Povinnost umožnit uplatňovat práva" as pravsr {
+        § 4 odst. 4 zákona 500/2004
+    }
+    ABSTRACT "Nezatěžování klienta" {
+        § 6 odst. 2 věta první zákona 500/2004
+    }
+    ABSTRACT "Zajistí si podklady" as zajpodklady {
+        § 6 odst. 2 věta druhá zákona 500/2004
+        § 50 odst. 2 zákona 500/2004
+    }
+}
+pravlps --> pravsr
+@enduml

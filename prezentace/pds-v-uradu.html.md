@@ -23,6 +23,13 @@ Michal Rada, [EGOVedu.cz](https://www.egovedu.cz)
 
 ---
 
+## Zakotvení PDS do práv
+
+
+---
+
+
+
 # Jak na PDS v úřadu?
 
 ---
