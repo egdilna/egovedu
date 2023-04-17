@@ -103,3 +103,4 @@ Po technické stránce za vazbu považujeme integraci na zdroje dat při využí
 - Souvislosti na dokument: Dokument je spravován a evidován v ESSL, tedy úkony spojené s dokumentem se realizují prostřednictvím rozhraní ESSL. Dokument má vazbu na spis, jež může obsahovat další dokumenty. Dokument má vazbu dále na subjekty, kterých se týká, a to odesílatele, příjemce a dotčené subjekty, tyto vazby se evidují ve Jmenném rejstříku v ESSL.
 - Souvislosti na vazby: Klíčové jsou byznysové vazby z byznys vrstvy architektury a technické vazby uskutečňující integraci dané komponenty či systému. Integrace je vnitřní (na systémy téhož správce) a vnější (na systémy jiného správce prostřednictvím eGSB a referenčního rozhraní).
 
+{% include ucebni-texty-footer.html %}

@@ -191,3 +191,4 @@ Důležité zdroje a odkazy
 - Pro úřady je nezbytností [stránka Propojený datový fond veřejné správy z NAP](https://archi.gov.cz/nap:propojeny_datovy_fond) což je základem ke sdílení údajů.
 - Je dobré se podívat i na [Sdílení údajů veřejné správy z NAP](https://archi.gov.cz/nap:sdileni_udaju) a [Systém správy dokumentů z NAP](https://archi.gov.cz/nap:system_spravy_dokumentu)
 
+{% include ucebni-texty-footer.html %}

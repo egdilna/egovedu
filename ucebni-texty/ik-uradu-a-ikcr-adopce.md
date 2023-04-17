@@ -55,3 +55,4 @@ Jak takový vztah a adopce z národní úrovně na úroveň úřadu vypadají?
   * Skupina Principy a zásady úřadu obsahuje  Národní  zásady řízení : Úřad si vždy povinně adoptuje veškeré zásady řízení z IKČR. Jeho zásady se tedy sestavují z adoptovaných národních a z dalších jeho vlastních. Narozdíl od cílů si adoptuje povinně všechny.
   * Skupina Principy a zásady úřadu dále obsahuje Zásada Zásada řízení : Kromě adoptovaných všech z IKČR si úřad ve své informační koncepci stanovuje i vlastní specifické pro jeho potřebu.
 
+{% include ucebni-texty-footer.html %}

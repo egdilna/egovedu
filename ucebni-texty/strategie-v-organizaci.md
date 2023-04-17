@@ -47,3 +47,4 @@ Co nám to říká:
    Pro každý svůj projekt či aktivitu bychom měli definovat vždy také důvod nebo-li potřebu. Kupříkladu potřeba vědět, co děláme je motivací pro tvorbu strategie a z ní vycházející projekty mají také své důvody a potřeby.
 
 
+{% include ucebni-texty-footer.html %}
