@@ -5,7 +5,7 @@ description: "Přinášíme zhuštěný text o tzv. čtyřech dohodách rozvoje 
 parent: Učební texty
 nav_order: 11
 grand_parent: Výuka EG
-last_updated: 2022-06-30
+last_modified_date: 2022-06-30
 ---
 
 

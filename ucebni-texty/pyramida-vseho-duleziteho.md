@@ -5,7 +5,7 @@ description: Učební text - podíváme se na pyramidu jednotlivých klíčovýc
 parent: Učební texty
 nav_order: 1
 grand_parent: Výuka EG
-last_updated: 2022-11-14
+last_modified_date: 2022-11-14
 ---
 
 

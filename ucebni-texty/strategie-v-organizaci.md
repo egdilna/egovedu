@@ -5,7 +5,7 @@ description: "Organizace jakéhokoliv typu by měla fungovat na principu strateg
 parent: Učební texty
 nav_order: 3
 grand_parent: Výuka EG
-last_updated: 2022-07-22
+last_modified_date: 2022-07-22
 ---
 
 

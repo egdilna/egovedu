@@ -5,7 +5,7 @@ description: "Subjekty stanovené zákonem o informačních systémech veřejné
 parent: Učební texty
 nav_order: 4
 grand_parent: Výuka EG
-last_updated: 2022-07-22
+last_modified_date: 2022-07-22
 ---
 
 
