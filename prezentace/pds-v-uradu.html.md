@@ -119,6 +119,8 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 
 # Jak na PDS v úřadu?
 
+>>> V této časti prezentace se podíváme, jak PDS komplexně řešit v úřadu. Je třeba si uvědomit to, že je to komplexní záležitost, která se nedá vytrhávat.
+
 ---
 
 ## Nejprve si trochu promluvme do duše
@@ -127,6 +129,9 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 - Kombinace celé EG legislativy říká, že už nezáleží moc na tom, co máme v jednotlivých svých agendových zákonech, principy EG a PDS platí vždy když jde o výkon veřejné správy
 - Úřad se nemůže vymlouvat na ostatní, ani na ohlašovatele. Když je něco špatně v RPP, má povinnost vůči ohlašovateli reklamovat
 - Máme DIA, která má povinnost a pravomoc všude rejdit, všechno vidět, všechno koordinovat a také pomáhat úřadům
+- Vedení úřadu i vnitřní legislativa musí jasně pochopit, že nehledá kličky, ale hledá, jak si splnit příslušné povinnosti
+- Je to dost komplexní legrace, nemělo by se to vytrhávat ze zbytku digitalizace úřadu
+- 
 
 
 ---
@@ -135,7 +140,11 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 
 ---
 
-## ✏️ ´Jeden úřad není samostatnou jednotkou, musíme spolupracovat
+## ✏️ Jeden úřad není samostatnou jednotkou, musíme spolupracovat
+
+
+---
+
 
 ## ✏️ Doporučený základní postup jak na adopci PDS v úřadu
 
@@ -144,6 +153,15 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 3. Edukovat zejména věcné gestory za jednotlivé oblasti a agendy a vysvětlit jim o čem PDS je a jak se jeho povinnostem přizpůsobit
 4. Zpracovat stručnou Analýzu dopadu PDS v daném úřadu
 
+---
+
+## Jakých oblastí a kusů se to dotýká
+
+Na jaké kousky si to rozdělit?
+
+Poskytování ohlášených služeb, Poskytování našich služeb, Klienti v rolích, Digitální úkony, Elektronická identifikace a důvěryhodnost úkonu, Zpřístupnění údajů a výpisy, Životní události a služby a úkony a postupy, Propojený datový fond a sdílení údajů v AISech, Odkazování lientem na cizí údaje a zápis skutečnosti v RPP, Zapsání skutečnosti do RPP na žádost, Elektronické funkční formuláře, Reklamace, Logování, Informace o poskytnutých službách a úkonech, Řízení služeb a zodpovědností
+
+---
 
 ## Analýza dopadu PDS na úřad
 
@@ -159,3 +177,6 @@ Z analýzy musí vypadnout
 
 Nedělejte z toho megadokument k ničemu, nechte se vést předpřipravenou strukturou a buďte struční a popisní
 
+Tady se tvoří [struktura vzorové analýzy dopadu PDS](https://prazskeegznalosti.tiddlyhost.com/#Struktura%20vzorov%C3%A9%20anal%C3%BDzy%20dopadu%20PDS%20na%20%C3%BA%C5%99ad)
+
+---
