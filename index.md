@@ -18,3 +18,5 @@ Vzdělávání v eGovernmentu
 <li>{{ novinka.datum }}: {{ novinka.text }}</li>
 {% endfor %}
 </ul>
+
+Mimochodem, víme, že máme problém s propagací HTTPS na doméně. Není to naše chyba, ale chyba na GitHubu, nahlášeno a prý na tom pracují...
