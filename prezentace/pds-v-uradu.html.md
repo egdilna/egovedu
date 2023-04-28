@@ -29,7 +29,7 @@ Michal Rada, [EGOVedu.cz](https://www.egovedu.cz)
 
 Právo na digitální služby není zákon, ale je to princip, pilíř, konstrukt, který se dotýká celého fungování veřejné správy jako celku i každého úřadu. 
 
-Jde o završení dvaceti let digitalizace a o secvakmutí toho, co úřady MUSELY dělat již před tím (ale dost se na to kašlalo)
+Jde o završení dvaceti let digitalizace a o secvaknutí toho, co úřady MUSELY dělat již před tím (ale dost se na to kašlalo)
 
 Navazuje, doplňuje a realizuje práva obecná na úrovni ústavní i obecného fungování veřejné správy
 
@@ -41,10 +41,10 @@ Navazuje, doplňuje a realizuje práva obecná na úrovni ústavní i obecného 
 
 
 
->>> Diagram je rozsáhlý a nemusí být čitelný na menších plátnech, doporučit si zvětšit originál v prezentaci na webu
+>>> Diagram je rozsáhlý a nemusí být čitelný na menších plátnech, doporučuji si zvětšit originál v prezentaci na webu
 >>>
 >>> - Ústavní rámec: Občan jako klient má práva, Veřejná správa je službou a z toho musí vše plynout. Zároveň veřejná správa smí a musí dělat to co jí stanoví zákon, číst ale tak, že všechny zákony dohromady, ne jen ten jeden jejich zákon, u kterého se jim to teď hodí.
->>> - PDS to doplňuje o takové právní mechanismy, které umožní klientům veřejné správy se těchto práv domoci i v digitálním prostředí, které se řídí jinými principy, než to nedigitální.
+>>> - PDS to doplňuje o takové právní mechanismy, které umožní klientům veřejné správy se těchto práv domoci i v digitálním prostředí, které se řídí jinými principy, než ty nedigitální.
 
 ---
 
@@ -54,7 +54,7 @@ Klíčová deklarace práva na digitální služby
 
 > **Poskytování digitálních služeb je společným cílem všech orgánů veřejné moci, směřujícím k zajišťování veřejných potřeb.**
 
-❗️ Není to jen prázdná fráze, v kombinaci s ústavními principy fungování veřejné správy zároveň zavazuje všechny OVO!
+❗️ Není to jen prázdná fráze, v kombinaci s ústavními principy fungování veřejné správy zároveň zavazuje všechny OVM!
 
 >>> Zdůraznit závazek a povinnost. PDS a EG se týká každého úřadu v každé jeho činnosti výkonu veřejné správy, nehledě na to, jestli si myslí, nebo nemyslí, že se ho to týká.
 >>>
@@ -101,7 +101,7 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 
 >>> Zhuštěný výpis seznamu práv ze zákona 12/2020. Je to konstruováno tak, že každý paragraf udává jedno právo a tím je to velice přehledné.
 >>>
->>> Zákon o PDS ale nejsou jen jednotlivá práva jako taková, znamená i významné změny dalších zákonů, na to pak navazuje zákon DEPO a další. Pro podrobné pochpení změn je vhodné si projít [dokument Rozbor celého zákona 12/2020 PDS](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-pds), [dokument Rozbor celého zákona 261/2021 DEPO](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-depo) a nově i [dokument Rozbor celého zákona 471/2022 Transformační zákon](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-transformacnizakon) 
+>>> Zákon o PDS ale není jen jednotlivá práva jako taková, znamená i významné změny dalších zákonů, na to pak navazuje zákon DEPO a další. Pro podrobné pochopení změn je vhodné si projít [dokument Rozbor celého zákona 12/2020 PDS](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-pds), [dokument Rozbor celého zákona 261/2021 DEPO](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-depo) a nově i [dokument Rozbor celého zákona 471/2022 Transformační zákon](http://metodiky.egdilna.cz/metodiky/legislativa/rozbor-transformacnizakon) 
 
 
 
@@ -159,7 +159,7 @@ Víc informací poskytují třeba [Seznam práv ze zákona o PDS s odkazy na jej
 
 Na jaké kousky si to rozdělit?
 
-Poskytování ohlášených služeb, Poskytování našich služeb, Klienti v rolích, Digitální úkony, Elektronická identifikace a důvěryhodnost úkonu, Zpřístupnění údajů a výpisy, Životní události a služby a úkony a postupy, Propojený datový fond a sdílení údajů v AISech, Odkazování lientem na cizí údaje a zápis skutečnosti v RPP, Zapsání skutečnosti do RPP na žádost, Elektronické funkční formuláře, Reklamace, Logování, Informace o poskytnutých službách a úkonech, Řízení služeb a zodpovědností
+Poskytování ohlášených služeb, Poskytování našich služeb, Klienti v rolích, Digitální úkony, Elektronická identifikace a důvěryhodnost úkonu, Zpřístupnění údajů a výpisy, Životní události a služby a úkony a postupy, Propojený datový fond a sdílení údajů v AISech, Odkazování klientem na cizí údaje a zápis skutečnosti v RPP, Zapsání skutečnosti do RPP na žádost, Elektronické funkční formuláře, Reklamace, Logování, Informace o poskytnutých službách a úkonech, Řízení služeb a zodpovědností
 
 ---
 
