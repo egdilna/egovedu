@@ -5,7 +5,7 @@ description: "Učební text - veřejná správa interaguje s klientem, k čemuž
 parent: Učební texty
 nav_order: 2
 grand_parent: Výuka EG
-last_updated: 2022-07-22
+last_modified_date: 2022-07-22
 ---
 
 
@@ -54,3 +54,4 @@ Tedy lze obecně konstatovat, že veřejná správa nemá práva jako taková. N
 
 Toto bývá mnohdy velice špatně pochopitelné. Pro účely pochopení fungování úřadu, zejména pro potřeby zpracování a řízení jeho procesů a činností a architektury, je tohle ale jasná pravda, se kterou se dá dobře pracovat.
 
+{% include ucebni-texty-footer.html %}

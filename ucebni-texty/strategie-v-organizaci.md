@@ -5,7 +5,7 @@ description: "Organizace jakéhokoliv typu by měla fungovat na principu strateg
 parent: Učební texty
 nav_order: 3
 grand_parent: Výuka EG
-last_updated: 2022-07-22
+last_modified_date: 2022-07-22
 ---
 
 
@@ -47,3 +47,4 @@ Co nám to říká:
    Pro každý svůj projekt či aktivitu bychom měli definovat vždy také důvod nebo-li potřebu. Kupříkladu potřeba vědět, co děláme je motivací pro tvorbu strategie a z ní vycházející projekty mají také své důvody a potřeby.
 
 
+{% include ucebni-texty-footer.html %}
