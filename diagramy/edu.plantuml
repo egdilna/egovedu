@@ -306,7 +306,7 @@ Rel_Association(egproduktfylozoficky16, stakeholderurednici)
 Rel_Association(egproduktfylozoficky17, stakeholderurednici)
 @enduml 
 
-urovnezaklpravklienta
+
 @startuml urovnezaklpravklienta
 title Úroveň a vztahy práv
 left to right direction
