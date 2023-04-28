@@ -1,0 +1,277 @@
+<meta charset=“utf-8” lang=“cs”>
+
+**Základní věci na něž myslet pro přístupnost čehokoliv**
+	Na co myslet, aby všechna vaše práce byla přístupná opravdu pro všechny
+
+https://www.egovedu.cz/prezentace/a11y-nacomyslet.html
+
+
+Michal Rada, [Česko digital](https://www.cesko-digital.cz)
+
+ℹ️ Ovládání prezentace: F spouští klávesnici, šipky posun snímků, N pro pohled prezentujícího, T pro časovač prezentace
+
+>>> Prezentace je součástí učebních materiálů z projektu EGOVedu (www.egovedu.cz)
+>>>
+>>> Tato prezentace je zveřejněna a může být volně využitá a volně šířena pod otevřenou licencí CC
+>>>
+>>> Technicky je prezentace vytvořena s využitím nástroje MarkDeep-slides 
+
+
+--- 
+
+# Něco o přístupnosti
+
+---
+
+
+## Co je to ta přístupnost
+
+Přístupnost znamená dělat věci tak, aby je mohli používat opravdu všichni bez rozdílu možností.
+
+Tedy také osoby se zdravotním postižením, které mají určité specifické potřeby
+
+---
+
+## Přístupnost čeho
+
+Přístupnost 
+
+- webů, webových stránek a webových aplikací
+- Aplikací, programů a to včetně mobilních aplikací
+- Dokumentů a formulářů
+- Informací prezentovaných různými formami
+- Výrobků a zařízení
+- Služeb a nástrojů
+
+---
+
+## Pro koho to je
+
+Hodně se mluví o tom, že přístupnost je jen pro osoby se zdravotním postižením, ale není to pravda.
+
+- Lepší práce s obsahem pro analýzy, roboty, UI
+- Správně fungující ergonomie obsahu s možností hierarchické navigace
+
+---
+
+## Druhy bariér
+
+Obecně lze rozlišit bariéry
+
+* Fyzické
+* Sociální
+* Informační
+* Komunikační
+* Ekonomické
+
+
+---
+
+
+## Speciality OZP: zrakově postižení
+
+Nevnímají obsah graficky, takže každá zraková informace je jim k ničemu
+
+- Hlavní prostředek je text, vše designové a grafické musí být textově popsáno
+- Používají normální IT zařízení, mají speciální software zvaný odečítač obrazovky
+- Důležité je pro ně vnímat a ovládat obsah sluchem, hlasem, hmatem
+- Potřeba statických ovládacích prvků
+- Potřeba vizuální úpravy a kontrastu
+- Problematická orientace ve velkém množství informací
+
+---
+
+## Speciality OZP: sluchově postižení
+
+Není jich sice tolik, ale zase jsou tak úžasně roztříštění, že ideální přístup pro ně prostě neexistuje.
+Každá sluchová a zvuková informace je pro ně nedostupná, vnímají zejména obrazové informace
+
+- Zvuky a akustické informace nejsou ideální, že?
+- Velkým omylem je to, že umí číst
+- Potřeba přepisování či překladu do znakového jazyka
+- Pro některé je čeština cizím jazykem
+- Jednoduché věci piktogramy, složitější textem či znakovým jazykem
+- Akustické Notifikace také textem či nějakým viditelným signálem
+
+---
+
+## Speciality OZP: mobilně postižení
+
+Jde o osoby s různým 
+Postižením motoriky. To nejsou jen vozíčkáři, ale takových postižení je spousta.
+
+- Nepřizpůsobujeme primárně obsah, ale ovládání 
+- Nemají rádi malé ikonky a tlačítka, nějaké složité šmrdlání kurzorem po obrazovce také není moc fajn
+- Potřeba čistého rozhraní s velkými prvky
+- Důležité je skutečně fyzické ovládání (třeba tlačítka) a klávesové zkratky
+
+---
+
+## Speciality OZP: hlavověpostižení
+
+Jsou fakt hodně rozdrobení, do této skupiny se řadí autismus, demence, nebo třeba jen hrosba záchvatu
+
+- Neblikáme, nebafáme, neblbneme
+- Mají rádi jasný a jednotný styl, takže žádné přesouvání prvků a ovládání
+- Jednoduchá sdělení, piktogramy, zjednodušený text (ETR)
+- Často neporozumí složitějším informacím či informacím podaným více formami
+- Nemají konzistentní chování
+
+>>>
+>>> Tenhle termín hlavové postižení prosím nikdy nikde nepoužívejte, prostě se mi to sem jen sémanticky hodilo
+
+---
+
+## Jak pracují
+
+- zrakově postižení
+    - s odečítačem obrazovky (braillský či hlasový výstup)
+    - se zvětšovacím softwarem
+    - jinou formou prezentace informaccí
+    - s diktováním a hlasovým ovládáním
+- sluchově postižení
+    - s titulky či přepisem hlasu
+    - znakový jazyk
+    - s vizualizací zvuků, s barvičkami a piktogramy
+    - s diktováním či hlasovým ovládáním a čtením hlasem
+- pohybově postižení
+    - speciální klávesnice a ovladače
+
+
+---
+
+# Základní společné principy
+
+---
+
+## Co jsou základní věci pro přístupnost
+
+Následující platí pro přístupnost jakéhokoliv obsahu
+
+- Různé formy smyslového sdělení
+- Možnost vnímat a ovládat více smysly
+- Neodpoutávat pozornost od důležitého obsahu
+- Nezahlcovat smysly uživatele 
+
+---
+
+## Základní principy pro obsah
+
+- Popsat netextové prvky
+- Vizualizovat zvukové prvky
+- Strukturovat pomocí nadpisů
+- Srozumitelná navigace
+- Popsány a vysvětleny ovládací prvky
+- Neměnit svévolně obsah
+- Předvídatelný vzhled a chování
+- Pravidla vzhledu a kontrastů
+- Popsaná média
+- Já vám dám časovače
+
+---
+
+## Třeba u webu řešte...
+
+Je dobré to řešit komplexně, ale zejména:
+
+1. Vědět, v jaké technologii web tvořím a zda generuje přístupný výsledek
+1. Mít vyřešenu přístupnost v šablonách designu webu
+1. Správně řešit přístupnost při grafickém návrhu
+1. Nezapomenout na přístupnost obsahu jednotlivých stránek
+1. Vhodné je mít přístupné rozhraní pro správce a editory
+
+
+---
+
+
+
+---
+
+## Kde se dozvědět víc?
+
+- [Web accessibility initiative](https://www.w3.org/WAI/) kde jsou některé věci i v [češtině](https://www.w3.org/WAI/translations/#etina-czech)
+- Nejdůležitější je [Norma WCAG](https://www.w3.org/TR/WCAG21/), v češtině jsou [pravidla](http://metodiky.egdilna.cz/metodiky/pristupnost/wcag-overview-cz) a [checklist](http://metodiky.egdilna.cz/metodiky/pristupnost/wcag-checklist-cz)
+- Pro dynamické aplikace je zde [Norma WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
+- Ostatně, mrkněte i na [úvod](https://www.w3.org/WAI/fundamentals/accessibility-intro/cs), [zásady](https://www.w3.org/WAI/fundamentals/accessibility-principles/cs) a [standardy](https://www.w3.org/WAI/standards-guidelines/cs) přístupnosti
+---
+
+## MAAP principy
+
+1. Veškeré prvky aplikace musejí být popsány dle jejich významu, kromě ryze designových prvků.
+2. Ovládací prvky aplikace musejí mít vždy jasnou svoji funkci.
+3. Aplikace musí být ovladatelná standardními metodami.
+4. Aplikace musí být plně funkční i s asistivními technologiemi a odečítači obrazovky.
+5. Informace a objekty v aplikaci musejí být vždy dobře čitelné a designované s ohledem na přístupnost a univerzalitu.
+6. Aplikace musí být ovladatelná klávesnicí či obdobnými hardwarovými prostředky.
+7. Aplikace se musí chovat předvídatelně.
+8. Aplikace nesmí měnit sdělované informace a obsah bez vědomí uživatele.
+9. U funkcí aplikace, jež nelze udělat přístupnými, to musí být uživateli sděleno.
+10. Jakýkoliv reklamní obsah v aplikaci nesmí omezovat přístupnost a použitelnost aplikace.
+
+
+---
+
+## Kde všude u appky řešit přístupnost?
+
+Není to jen o aplikaci. V rámci aplikací je nutno zajistit:
+
+- Přístupnost samotné aplikace
+- Přístupnost jejího obsahu
+- Přístupnost kanálu pro získání a správu aplikace
+- Přístupnou dokumentaci a nápovědu
+- Přístupné informace o aktualizacích a změnách v aplikaci
+
+---
+
+---
+
+
+
+## Kde se dozvědět víc?
+
+- [Mobilní přístupnost](https://www.w3.org/WAI/standards-guidelines/mobile/cs) z W3C
+-  [MAAP principy](http://metodiky.egdilna.cz/metodiky/pristupnost/maap)
+
+
+Pro každou platformu jsou guidelines
+
+I frameworky mají svoji dokumentaci k accessibilitě aplikací
+
+---
+
+
+---
+
+
+
+
+<!— Markdeep slides stuff —>
+<script>
+    markdeepSlidesOptions = {
+        aspectRatio: 16 / 9,
+        theme: ‘simple’,
+        fontSize: 20,
+        diagramZoom: 1.0,
+        totalSlideNumber: true,
+        progressBar: true,
+        breakOnHeadings: false,
+        slideChangeHook: (oldSlide, newSlide) => {},
+        modeChangeHook: (newMode) => {}
+    };
+</script>
+<link rel=“stylesheet” href=“markdeep-slides/lib/markdeep-relative-sizes/1.11/relativize.css”>
+<link rel=“stylesheet” href=“markdeep-slides/markdeep-slides.css”>
+<script src=“markdeep-slides/markdeep-slides.js”></script>
+<!— Markdeep stuff —>
+<script>
+    markdeepOptions = {
+        tocStyle: ‘none’,
+        detectMath: false,
+        onLoad: function() {
+            initSlides();
+        }
+    };
+</script>
+<style class=“fallback”>body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src=“markdeep-slides/lib/markdeep/1.11/markdeep.min.js” charset=“utf-8”></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility=“visible”)</script>
