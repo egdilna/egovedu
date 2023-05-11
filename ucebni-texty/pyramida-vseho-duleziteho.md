@@ -1,3 +1,14 @@
+---
+layout: default
+title: Učebnní text Pyramida všeho důležitého
+description: Učební text - podíváme se na pyramidu jednotlivých klíčových vrstev a o každé vrstvě se dozvíme spoustu informací
+parent: Učební texty
+nav_order: 1
+grand_parent: Výuka EG
+last_modified_date: 2022-11-14
+---
+
+
 ## Pyramida všeho důležitého
 
 Vyznat se ve všem, co je třeba mít na paměti úřadu, je složité. Chtělo by to nějaký zapamatovatelný způsob a něco, čím to lze přiblížit normálním lidem v lidštině.
@@ -32,7 +43,7 @@ Další zdroje a odkazy
 - Až bude někdy fungovat eSbírka, bude správným autoritativním zdrojem právního rámce v ČR.
 - Do té doby se jako nejlepší řešení s nejvíce funkcemi jeví [nástroj Zákony pro lidi](https://www.zakonyprolidi.cz)
 - Mrkněte se i do Národní architektury, kde se tomu věnuje třeba [stránka Systémy a služby spojené s právním řádem z NAP](https://archi.gov.cz/nap:systemy_sluzby_spojene_pravnim_radem_legislativou)
-- Co se týče EG legislativy, prvním zdrojem informací je [dokument Podrobný popis vybraných EG předpisů](http://www.egdilna.cz/metodiky/eg-legislativa.html)
+- Co se týče EG legislativy, prvním zdrojem informací je [dokument Podrobný popis vybraných EG předpisů](https://metodiky.egdilna.cz/metodiky/legislativa/popis-eg-zakonu)
 
 
 
@@ -77,7 +88,7 @@ Stejně důležité je znát práva svých klientů, která musí veřejná spr�
 Důležité zdroje a odkazy
 
 - [stránka Registr práv a povinností z NAP](https://archi.gov.cz/nap:rpp) obsahuje tzv. činnosti a úkony a služby, což je dekompozice jednotlivých zákonů pro jejich agendy, (a tedy agendové povinnosti)
-- [nástroj Mapa EG povinností](http://www.egdilna.cz/mapapovinnosti) je seznamem obecných povinností k digitalizaci, z nějž vychází i zhodnocení povinností. Nebo si můžete rovnou otevřít [Webovou aplikaci Mapa EG povinností](https://airtable.com/shrXrjDosrC90Pmad/tblNus2OArc8XSVHA)
+- [nástroj Mapa EG povinností](https://mapa.egdilna.cz) je seznamem obecných povinností k digitalizaci, z nějž vychází i zhodnocení povinností. 
 
 ### Patro Služby veřejné správy
 
@@ -153,7 +164,7 @@ Důležité zdroje a odkazy
 
 - [předpis Informační koncepce ČR](https://archi.gov.cz/ikcr) a zejména [předpis Národní architektonický plán](https://archi.gov.cz/nap_dokument) velice podrobně určují, jak mají informační systémy vypadat a fungovat a na jakých principech.
 - Kupříkladu propojováním se zabývá třeba [stránka Integrace informačních systémů veřejné správy z NAP](https://archi.gov.cz/nap:integrace_informacnich_systemu)
-- Nový legislativní rámec udává nové služby systémů, o nich říká třeba [dokument Kontrolní seznam požadavků na soulad ISVS se základními požadavky legislativy](https://github.com/egdilna/eg-postupy/blob/main/kontrolni-seznam-pozadavky-ISVS-nove.md)
+- Nový legislativní rámec udává nové služby systémů, o nich říká třeba [dokument Kontrolní seznam požadavků na soulad ISVS se základními požadavky legislativy](http://metodiky.egdilna.cz/postupy/kontrolni-seznam-pozadavky-ISVS-nove)
 
 
 ### Patro Údaje a dokumenty
@@ -175,8 +186,9 @@ Obecně platí, že:
 
 Důležité zdroje a odkazy
 
-- Pro lepší pochopení rozdílů mezi údaji a dokumenty může posloužit třeba [učební text Čtyři klíčové věci, na něž myslet - EGOVedu učební texty](https://github.com/egdilna/egovedu/blob/main/ucebni-texty/ctyri-veci.md)
+- Pro lepší pochopení rozdílů mezi údaji a dokumenty může posloužit třeba [učební text Čtyři klíčové věci, na něž myslet - EGOVedu učební texty](https://www.egovedu.cz/ucebni-texty/ctyri-veci)
 - [stránka Veřejný datový fond VS z NAP](https://archi.gov.cz/nap:verejny_datovy_fond) a [stránka Otevřená data z NAP](https://archi.gov.cz/nap:otevrena_data) vysvětlují veřejně přístupná data pro každého
 - Pro úřady je nezbytností [stránka Propojený datový fond veřejné správy z NAP](https://archi.gov.cz/nap:propojeny_datovy_fond) což je základem ke sdílení údajů.
 - Je dobré se podívat i na [Sdílení údajů veřejné správy z NAP](https://archi.gov.cz/nap:sdileni_udaju) a [Systém správy dokumentů z NAP](https://archi.gov.cz/nap:system_spravy_dokumentu)
 
+{% include ucebni-texty-footer.html %}

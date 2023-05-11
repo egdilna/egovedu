@@ -1,3 +1,12 @@
+---
+layout: default
+title: Co EG produkty přináší úředníkům
+description: Text s informacemi o jednotlivých hlavních produktech EG a jejich přínosu pro úředníky jako klíčovou cílovou skupinu efektivizace veřejné správy
+nav_order: 13
+parent: Obecná edukace
+---
+
+
 ## Co EG projekty přináší úředníkům
 
 Neustále se hovoří o přínosech elektronizace veřejné správy pro klienty - tedy pro občany, podnikatele, apod. Nicméně je třeba dělat především takové věci, které pomohou opravdu všem. Zapomínáme trochu na úředníky a samotné úřady. Zatímco úřady vydávají desítky až stovky milionů korun za poněkud neprůhledný a nejasný rozvoj ICT prostředků a systémů, musí se to odrazit také ve snížení zátěže zaměstnanců vykonávajících veřejnou správu a zajišťujících poskytování služeb.
@@ -8,7 +17,7 @@ Neustále se hovoří o přínosech elektronizace veřejné správy pro klienty 
 EG musí fungovat pro obě strany. Moderní a správně konstruované informační systémy musejí maximálně omezit nutnost úředníků dělat opakované administrativní a procesní úkony, které za ně musí dělat sám systém.  Navíc se musí omezit tvořivost úředníků a s tím spojené riziko nesprávného či protizákonného postupu. A samozřejmě, úředníkovi musí informační systém zprostředkovat takové údaje, aby podle nich mohla být opravdu poskytována kvalitní a efektivní služba veřejné správy.
 
 
-[Diagram Schéma produktů pro úředníky](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/coegnabiziurednikum.png)
+![Diagram Schéma produktů pro úředníky](https://github.com/egdilna/egovedu/raw/main/diagramy/Edu/coegnabiziurednikum.png)
 
 
 

@@ -11,6 +11,7 @@ Project starts 2021-01-01
 [DIA: Vznik DIA] happens 2023-04-01
 [ISVS: Účinnost nové vyhlášky o řízení ICT] starts 2023-07-01
 [ISVS: IK nových subjektů podle zákona o ISVS] ends 2023-12-31
+[Funkční eDoklady] happens 2024-01-01
 [ISVS: Všichni svoje IK a ISVS v souladu s novou vyhláškou] ends 2024-12-31
 [INF: Zajistit zveřejňování vše jako opendata] ends 2023-12-31
 [IKČR: Vytvoření mechanismu zpětné vazby na služby EG (DC 1.7)] ends 2023-09-30
@@ -151,3 +152,207 @@ Rel_Association(egproduktfylozoficky15, stakeholderurednici)
 Rel_Association(egproduktfylozoficky16, stakeholderurednici)
 Rel_Association(egproduktfylozoficky17, stakeholderurednici)
 @enduml 
+
+@startgantt casovaosaeg
+language cs
+projectscale quarterly
+Project starts 2021-01-01
+[PDS: Platnost zákona o PDS] happens 2020-02-01
+[PDS: Postupná digitalizace služeb] starts 2021-02-01 and ends 2025-02-01
+[PDS: Účinnost ostatních práv z PDS] happens 2022-02-01
+[ISVS: Meziresortní připomínkování vyhlášky] starts 2023-02-08 and ends 2023-03-31
+[INF: Povinnosti zákona 106/1999 i pro nové subjekty] starts 2023-01-01
+[DIA: Platnost nových zákonů] starts 2023-04-01
+[DIA: Vznik DIA] happens 2023-04-01
+[ISVS: Účinnost nové vyhlášky o řízení ICT] starts 2023-07-01
+[ISVS: IK nových subjektů podle zákona o ISVS] ends 2023-12-31
+[ISVS: Všichni svoje IK a ISVS v souladu s novou vyhláškou] ends 2024-12-31
+[INF: Zajistit zveřejňování vše jako opendata] ends 2023-12-31
+[IKČR: Vytvoření mechanismu zpětné vazby na služby EG (DC 1.7)] ends 2023-09-30
+[IKČR: U poloviny služeb státu sjednocené UX/UI (DC 1.8)] ends 2022-06-30 
+[ISVS: celý Propojený datový fond] happens 2025-02-01
+[PDS: Povinná digitalizace veškerých služeb dle PDS] happens 2025-02-01
+[IKČR: Sjednocené UI/UX webových stránek úřadů (DC 1.8)] ends 2025-09-30 
+[IKČR: Sjednotit UI/UX u všech digitálních služeb státu (DC 1.8)] ends 2027-06-30
+legend
+ISVS: Věci podle zákona 365/2000 a vyhlášek
+IKČR: Termíny z Informační koncepce ČR
+INF: Termíny k zákonu 106/1999 a otevřeným datům
+DIA: Věci k Digitální a informační agentuře
+end legend
+@endgantt
+
+egl0ridicidokumenty
+!include <archimate/archimate>
+Left to right direction
+Title Struktura řídících norem pro EG pro úřad
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+
+Business_Contract(legislativazakon3652000, "Zákon 365/2000 o ISVS") 
+Business_Contract(legislativavyhlaska5292006, "Vyhláška 529/2006 o dlouhodobém řízení IS") 
+Business_Contract(ikcr, "Informační koncepce ČR") 
+Business_Actor(ovm, "Orgán veřejné moci") 
+Business_Contract(ikcrmrict, "Metody řízení ICT VS") 
+Business_Contract(ikcrnap, "Národní architektonický plán") 
+Business_Contract(ikcrnar, "Národní architektonický rámec") 
+Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
+Business_Contract(ikcr, "Informační koncepce ČR") 
+Business_Contract(metamodelikovs, "Informační koncepce úřadu") 
+Rel_Aggregation(ikcr, ikcrmrict)
+Rel_Aggregation(ikcr, ikcrnap)
+Rel_Aggregation(ikcr, ikcrnar)
+Rel_Aggregation(ikcr, metamodelikovs)
+Rel_Aggregation(legislativazakon3652000, ikcr)
+Rel_Composition(legislativazakon3652000, legislativavyhlaska5292006)
+Rel_Association(ovm, metamodelikovs)
+@enduml
+
+@startuml prava-sluzby-klienti-vs
+allowmixing
+title Jak to chodí ve veřejné správě
+footer EGOVEDU
+class "Práva" as prava
+class "Povinnosti" as povinnosti
+actor "Klient" as klient
+actor "Veřejná\nspráva" as vs
+class "Úkon" as ukon
+class "Služba" as sluzba
+prava <..r[#black]..> povinnosti : určuje
+prava -d- klient
+povinnosti -d- vs
+klient <..r..> vs : interagují
+povinnosti -- klient
+klient -d[#green]-> ukon : činí
+vs -d[#blue]-> sluzba : poskytuje
+sluzba -[#green]-> klient : je poskytována
+ukon ..r[#black]..> sluzba : iniciuje
+@enduml
+
+@startuml coegnabiziurednikum
+!include <archimate/archimate>
+Left to right direction
+Title Co za produkty EG přináší pro úředníky
+footer 
+© 2022 EGOVedu, EGdílna.cz
+github.com/egdilna/egovedu
+end footer
+Business_Product(Egproduktds, "Datové schránky") 
+Business_Product(Egproduktessl, "Elektronická spisová služba") 
+Business_Product(Egproduktppdf, "Propojený datový fond") 
+Business_Product(Egproduktzr, "Základní registry") 
+Business_Product(egprodukteid, "Elektronická identifikace") 
+Business_Product(egproduktfylozoficky01, "Referenční identita subjektů") 
+Business_Product(egproduktfylozoficky02, "Důvěryhodné základní údaje o subjektu") 
+Business_Product(egproduktfylozoficky03, "Důvěryhodné údaje pro kontaktování subjektu") 
+Business_Product(egproduktfylozoficky04, "Kontaktní údaje subjektu pro instantní notifikace") 
+Business_Product(egproduktfylozoficky05, "Důvěryhodná vazba oprávněné osoby jednající za firmu") 
+Business_Product(egproduktfylozoficky06, "Závazný zdroj toho, co úřad musí a smí dělat") 
+Business_Product(egproduktfylozoficky07, "Jednání podle údajů bez pochybnosti a ověřování") 
+Business_Product(egproduktfylozoficky08, "Zaručený elektronický kanál pro příjem a doručování dokumentů") 
+Business_Product(egproduktfylozoficky09, "Důvěryhodná identifikace fyzické osoby v digitálním světě") 
+Business_Product(egproduktfylozoficky10, "Sdílení maximální množiny údajů potřebných pro práci úředníka a úřadu") 
+Business_Product(egproduktfylozoficky11, "Omezení chybovosti úředníka") 
+Business_Product(egproduktfylozoficky12, "Omezení protiprávnosti jednání úředníka") 
+Business_Product(egproduktfylozoficky13, "Omezení nesprávného úředního a tedy protiprávního postupu") 
+Business_Product(egproduktfylozoficky14, "Snížení počtu a složitosti činností úředníků") 
+Business_Product(egproduktfylozoficky15, "Prokazatelnost a dokazatelnost postupu a kroků úředníků a úřadu") 
+Business_Product(egproduktfylozoficky16, "Nezpochybnitelnost pravosti dokumentů a údajů úřadu") 
+Business_Product(egproduktfylozoficky17, "Důvěryhodnost a dokazatelnost dokumentů úřadu a jejich životního cyklu") 
+Motivation_Stakeholder(stakeholderurednici, "Úředníci") 
+Rel_Association(Egproduktds, egproduktfylozoficky08)
+Rel_Association(Egproduktds, egproduktfylozoficky16)
+Rel_Association(Egproduktessl, egproduktfylozoficky08)
+Rel_Association(Egproduktessl, egproduktfylozoficky15)
+Rel_Association(Egproduktessl, egproduktfylozoficky16)
+Rel_Association(Egproduktessl, egproduktfylozoficky17)
+Rel_Association(Egproduktppdf, egproduktfylozoficky07)
+Rel_Association(Egproduktppdf, egproduktfylozoficky10)
+Rel_Association(Egproduktppdf, egproduktfylozoficky11)
+Rel_Association(Egproduktppdf, egproduktfylozoficky12)
+Rel_Association(Egproduktppdf, egproduktfylozoficky13)
+Rel_Association(Egproduktppdf, egproduktfylozoficky14)
+Rel_Association(Egproduktppdf, egproduktfylozoficky14)
+Rel_Association(Egproduktppdf, egproduktfylozoficky15)
+Rel_Association(Egproduktzr, egproduktfylozoficky01)
+Rel_Association(Egproduktzr, egproduktfylozoficky02)
+Rel_Association(Egproduktzr, egproduktfylozoficky03)
+Rel_Association(Egproduktzr, egproduktfylozoficky04)
+Rel_Association(Egproduktzr, egproduktfylozoficky05)
+Rel_Association(Egproduktzr, egproduktfylozoficky06)
+Rel_Association(Egproduktzr, egproduktfylozoficky07)
+Rel_Association(Egproduktzr, egproduktfylozoficky10)
+Rel_Association(Egproduktzr, egproduktfylozoficky11)
+Rel_Association(Egproduktzr, egproduktfylozoficky12)
+Rel_Association(Egproduktzr, egproduktfylozoficky13)
+Rel_Association(egprodukteid, egproduktfylozoficky09)
+Rel_Association(egproduktfylozoficky01, stakeholderurednici)
+Rel_Association(egproduktfylozoficky02, stakeholderurednici)
+Rel_Association(egproduktfylozoficky03, stakeholderurednici)
+Rel_Association(egproduktfylozoficky04, stakeholderurednici)
+Rel_Association(egproduktfylozoficky05, stakeholderurednici)
+Rel_Association(egproduktfylozoficky06, stakeholderurednici)
+Rel_Association(egproduktfylozoficky07, stakeholderurednici)
+Rel_Association(egproduktfylozoficky08, stakeholderurednici)
+Rel_Association(egproduktfylozoficky09, stakeholderurednici)
+Rel_Association(egproduktfylozoficky10, stakeholderurednici)
+Rel_Association(egproduktfylozoficky11, stakeholderurednici)
+Rel_Association(egproduktfylozoficky12, stakeholderurednici)
+Rel_Association(egproduktfylozoficky13, stakeholderurednici)
+Rel_Association(egproduktfylozoficky14, stakeholderurednici)
+Rel_Association(egproduktfylozoficky15, stakeholderurednici)
+Rel_Association(egproduktfylozoficky16, stakeholderurednici)
+Rel_Association(egproduktfylozoficky17, stakeholderurednici)
+@enduml 
+
+
+@startuml urovnezaklpravklienta
+title Úroveň a vztahy práv
+left to right direction
+PACKAGE "Ústava (1/1993)" as ustava {
+    ABSTRACT "Regulovaná státní moc" as regmoc {
+        čl. 2 odst. 3
+    }
+    ABSTRACT "Zabránění nezákonnosti" as nezak {
+        čl. 2 odst. 4
+    }
+    ABSTRACT "Veřejná moc výhradně podle zákona" as vmzak {
+        čl 79 odst 2
+    }
+}
+PACKAGE "Listina základních práv a svobod (2/1993)" as listprav {
+    ABSTRACT "Právo domáhat se svých práv" as pravlps {
+        čl. 36 odst. 1
+    }
+    ABSTRACT "Právo soudního přezkumu rozhodnutí veřejné správy" {
+        čl. 36 odst. 2
+    }
+    ABSTRACT "Právo na odškodnění veřejnou mocí" {
+        čl. 36 odst. 3
+    }
+}
+PACKAGE "Procesně správní předpisy" as sprav {
+    ABSTRACT "Obecné zásady správního práva" as pravobzas {
+        zákon 500/2004
+        - Správní orgány postupují jen dle zákonů a mezinárodních smluv
+        - Správní orgán šetří a respektuje práva osob
+        - Správní orgán má povinnost vycházet vstříc
+    }
+    ABSTRACT "Veřejná správa je službou veřejnosti" as vssluzba {
+        § 4 odst. 1 zákona 500/2004
+    }
+    ABSTRACT "Povinnost umožnit uplatňovat práva" as pravsr {
+        § 4 odst. 4 zákona 500/2004
+    }
+    ABSTRACT "Nezatěžování klienta" {
+        § 6 odst. 2 věta první zákona 500/2004
+    }
+    ABSTRACT "Zajistí si podklady" as zajpodklady {
+        § 6 odst. 2 věta druhá zákona 500/2004
+        § 50 odst. 2 zákona 500/2004
+    }
+}
+pravlps --> pravsr
+@enduml

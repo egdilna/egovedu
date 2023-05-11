@@ -1,3 +1,16 @@
+---
+layout: default
+title: Učebnní text Vztah Informační koncepce úřadu s IKČR a národní architekturou
+description: "Subjekty stanovené zákonem o informačních systémech veřejné správy musí mít svoji Informační koncepci OVS nebo-li Informační koncepci úřadu. Na národní úrovni je ale závazná Informační koncepce ČR. Jaký mají mezi sebou vztah a jak se úřad má chovat k národní IK při tvorbě svojí koncepce"
+parent: Učební texty
+nav_order: 4
+grand_parent: Výuka EG
+last_modified_date: 2022-07-22
+---
+
+
+
+
 ## Vztah informační koncepce úřadu s IKČR a národní architekturou
 
 Nejen pro veřejnou správu je důležité dělat věci s rozmyslem a dlouhodobým záměrem. K tomu si vypracovávají jednotlivé úřady informační koncepci a ta vychází z Informační koncepce ČR jako základního národního strategického dokumentu.
@@ -42,3 +55,4 @@ Jak takový vztah a adopce z národní úrovně na úroveň úřadu vypadají?
   * Skupina Principy a zásady úřadu obsahuje  Národní  zásady řízení : Úřad si vždy povinně adoptuje veškeré zásady řízení z IKČR. Jeho zásady se tedy sestavují z adoptovaných národních a z dalších jeho vlastních. Narozdíl od cílů si adoptuje povinně všechny.
   * Skupina Principy a zásady úřadu dále obsahuje Zásada Zásada řízení : Kromě adoptovaných všech z IKČR si úřad ve své informační koncepci stanovuje i vlastní specifické pro jeho potřebu.
 
+{% include ucebni-texty-footer.html %}
