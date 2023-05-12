@@ -1,3 +1,0 @@
-## Stručně Jak si udělat Informační koncepci úřadu
-
-Každá instituce, která je podle zákona o informačních systémech veřejné správy orgánem veřejné správy, musí mít svoji informační koncepci. Informační koncepce úřadu je základní strategický dokument, ve kterém se nejen popisuje současný a budoucí stav, ale především slouží také jako zdůvodnění pro veškeré aktivity související s řízením a rozvojem informatiky a služeb úřadu.
