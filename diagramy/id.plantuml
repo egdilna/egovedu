@@ -1,0 +1,10 @@
+@startuml eid-jednani-ovm
+ACTOR "Lokální \n administrátor \n OVM" as lokaladminjip
+DATABASE "JIP/KAAS" as jip
+ACTOR "Zaměstnanec \n OVM" as zamestnanecovm
+DATABASE "Portál login" as portallogin
+DATABASE "Portál mandáty" as portalmandaty
+DATABASE L"P"ortál UI" as portalui
+DATABASE "ROB" as rob
+DATABASE "ROS" as ros
+@enduml
