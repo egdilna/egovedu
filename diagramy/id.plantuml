@@ -1,0 +1,40 @@
+@startuml eid-jednani-po
+ACTOR "Jednatel \n nebo statutár" as jednatel
+ACTOR "Pověřená fyzická \n osoba" as uzivatel
+DATABASE "NIA" as nia
+DATABASE "Portál login" as portallogin
+DATABASE "Portál mandáty" as portalmandaty
+DATABASE "Portál UI" as portalui
+DATABASE "ROB" as rob
+DATABASE "ROS" as ros
+jednatel -> portallogin: Vybere jako zdroj přihlášení NIA
+jednatel -> nia: Přihlásí se do NIA v roli jednatele
+nia -> rob: Ověří identitu fyzické osoby
+nia -> portalmandaty: Autentifikuje uživatele pro role v mandátech
+portalmandaty -> ros: Ověří vztah přihlášeného uživatele k právnickému subjektu
+jednatel -> portalmandaty: Vybere právnickou osobu za níž jedná a vybere že chce zapsat mandát
+jednatel -> portalmandaty: Zapíše mandát pověřené osoby jako fyzické osoby
+uzivatel -> portallogin: Zvolí jako zdroj přihlášení NIA
+uzivatel -> nia: Přihlásí se přes NIAnia -> portalmandaty: Předá identitu uživatele autentifikovaného v NIA
+portalmandaty -> rob: Ztotožnění konkrétní fyzické osoby dle její identity
+uzivatel -> portalmandaty: Vybere subjekt jehož jménem jedná dle zapsaných mandátů
+portalmandaty -> portalui: Autentifikovaný a autorizovaný uživatel je vpuštěn do portálu 
+@enduml
+
+@startuml eid-jednani-ovm
+ACTOR "Lokální \n administrátor \n OVM" as lokaladminjip
+DATABASE "JIP/KAAS" as jip
+ACTOR "Zaměstnanec \n OVM" as zamestnanecovm
+DATABASE "Portál login" as portallogin
+DATABASE "Portál mandáty" as portalmandaty
+DATABASE "Portál UI" as portalui
+DATABASE "ROB" as rob
+DATABASE "ROS" as ros
+lokaladminjip -> zamestnanecovm: vyřeší identitu zaměstnance OVM
+lokaladminjip -> jip: Zavede zaměstnance jako uživatele JIP
+lokaladminjip -> jip: Přiřadí uživatele do role v JIP
+zamestnanecovm -> portallogin: Vybere jako zdroj přihlášení JIP
+zamestnanecovm -> jip: Přihlásí se v JIP/KAAS
+jip -> portalmandaty: JIP/KAAS předá identitu zaměstnance a také roli v níž je autorizován
+portalmandaty -> portalui: Autentifikovaný a autorizovaný uživatel je vpuštěn do portálu 
+@enduml
