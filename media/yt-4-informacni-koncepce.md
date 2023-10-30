@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "EGOVedu Informační koncepce, co? proč? jak? s kým?"
+title: "EGOVedu Informační koncepce, co? proč? jak? s kým?"
 description: Tento díl edukačního podcastu ve třiceti minutách představuje velmi podrobně a zároveň srozumitelně co je informační koncepce a proč jí kdo potřebuje a co má a může přinést
 nav_order: 4
 parent: EGOVedu na Youtube
