@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "EGOVedu Co znamená soulad s...
+title: "EGOVedu Co znamená soulad s..."
 description: Tento díl edukačního podcastu se snaží odpovědět na otázku, co je to obecná povinnost souladu uvedená v zákoně o ISVS a co si pod tím vlastně představit
 nav_order: 5
 parent: EGOVedu na Youtube
