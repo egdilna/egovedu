@@ -4,6 +4,7 @@ title: Časová osa eGovernmentu v ČR
 description: Přehledně v jednom obrázku co nás kdy čeká
 nav_order: 2
 parent: Obecná edukace
+last_modified_date: 2023-11-07
 ---
 
 
