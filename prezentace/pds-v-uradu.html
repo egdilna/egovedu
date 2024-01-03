@@ -8,6 +8,8 @@ https://www.egovedu.cz/prezentace/pds-v-uradu
 
 Michal Rada, [EGOVedu.cz](https://www.egovedu.cz)
 
+Verze 1.2 z 4.1.2024
+
 ℹ️ Ovládání prezentace: F spouští klávesnici, šipky posun snímků, N pro pohled prezentujícího, T pro časovač prezentace
 
 >>> Prezentace je součástí učebních materiálů z projektu EGOVedu (www.egovedu.cz)
@@ -16,8 +18,9 @@ Michal Rada, [EGOVedu.cz](https://www.egovedu.cz)
 >>>
 >>> Technicky je prezentace vytvořena s využitím nástroje MarkDeep-slides 
 >>>
->>> * Verze 1.1 z 2.5.2023: Doplněny informace o PDS a obcích a městech, protože v tom panují nejasnosti a mylné výklady
 >>> * verze 1 z 26.4.2023: První veřejná verze prezentace, je to public draft, v květnu se bude aktualizovat dle prvních zkušeností
+>>> * Verze 1.1 z 2.5.2023: Doplněny informace o PDS a obcích a městech, protože v tom panují nejasnosti a mylné výklady
+>>> * Verze 1.2 z 4.1.2024: Opraven snímek Jakých oblastí a kusů se to dotýká. Dále doplněny poznatky a odkazy na zdroje školení ke PDS z DIA a doplněny věci stran implementačních doporučení k jednotlivým ustanovením z DIA/RVIS. 
 
 
 ----
@@ -162,7 +165,9 @@ Ostatní práva (úkony, osvědčení, EID, odkaz na údaje či zápis a využit
 ## Další zdroje a informace o PDS
 
 - V rámci EGOVedu vznikly ucelené [Podklady semináře Právo na digitální služby v ČR](https://egovedukb.tiddlyhost.com/#%F0%9F%93%95%20Semin%C3%A1%C5%99%20PDS%20a%20digitalizace%20slu%C5%BEeb) jež může kdokoliv použít pro edukaci
+- DIA má speciální [stránku k zákonu o PDS](https://www.dia.gov.cz/co-delame/zakon-c-12-2020-sb-o-pravu-na-digitalni-sluzby/) s popularizačními články
 - Na archi.gov.cz je [stránka Implementace povinností dle zákona o právu na digitální služby z NAEG](https://archi.gov.cz/znalostni_baze:implementace_zopds?s[]=pr%C3%A1vo%2A&s[]=na%2A&s[]=digit%C3%A1ln%C3%AD%2A&s[]=slu%C5%BEby%2A))
+- Mimo jiné jsou zde také zpracována [Implementační doporučení k zákonu o právu na digitální služby](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/)
 - V rámci wiki znalostní architektury je [sekce Právo na digitální služby](https://architektovani.tiddlyhost.com/#Pr%C3%A1vo%20na%20digit%C3%A1ln%C3%AD%20slu%C5%BEby)
 
 
@@ -171,7 +176,7 @@ Ostatní práva (úkony, osvědčení, EID, odkaz na údaje či zápis a využit
 
 # Jak na PDS v úřadu?
 
->>> V této časti prezentace se podíváme, jak PDS komplexně řešit v úřadu. Je třeba si uvědomit to, že je to komplexní záležitost, která se nedá vytrhávat.
+>>> V této části prezentace se podíváme, jak PDS komplexně řešit v úřadu. Je třeba si uvědomit to, že je to komplexní záležitost, která se nedá vytrhávat.
 
 ---
 
@@ -227,7 +232,19 @@ Veřejná správa funguje jako celek, tedy musí fungovat z národní úrovně, 
 
 Na jaké kousky si to rozdělit?
 
-Poskytování ohlášených služeb, Poskytování našich služeb, Klienti v rolích, Digitální úkony, Elektronická identifikace a důvěryhodnost úkonu, Zpřístupnění údajů a výpisy, Životní události a služby a úkony a postupy, Propojený datový fond a sdílení údajů v AISech, Odkazování klientem na cizí údaje a zápis skutečnosti v RPP, Zapsání skutečnosti do RPP na žádost, Elektronické funkční formuláře, Reklamace, Logování, Informace o poskytnutých službách a úkonech, Řízení služeb a zodpovědností
+* Řízení služeb a zodpovědností, Poskytování ohlášených služeb, Poskytování našich služeb
+* Životní události a služby a úkony a postupy, Digitální úkony, Elektronické funkční formuláře, Informace o poskytnutých službách a úkonech
+* Klienti v rolích, Elektronická identifikace a důvěryhodnost úkonu
+* Data a údaje potřebné pro funkční služby a jejich zdroj, Zpřístupnění údajů a výpisy, Propojený datový fond a sdílení údajů v AISech, Odkazování klientem na cizí údaje a zápis skutečnosti v RPP, Zapsání skutečnosti do RPP na žádost, Reklamace
+* Logování
+
+>>> Důležité je, že celá implementace rámce poskytování služeb je nejen samotné PDS, ale plnění všech povinností. Aby se to v úřadu dalo opravdu poctivě zanalyzovat, tak je dobré si to rozdělit. V analýze dopadů PDS jsou všechny tyto věci řešeny jako dotčené oblasti, u kterých si úřad má uvést
+>>>
+>>> * Jak na to teď je,
+>>> * Co potřebuje zlepšit a napravit
+>>> * Jak toho zlepšení konkrétně dosáhne
+>>>
+
 
 ---
 
@@ -246,7 +263,23 @@ Z analýzy musí vypadnout
 Nedělejte z toho megadokument k ničemu, nechte se vést předpřipravenou strukturou a buďte struční a popisní
 
 
----
+
+
+## Implementační doporučení DIA
+
+DIA a RVIS zpracovali v rámci pracovních skupin implementační návody pro jednotlivá práva resp. ustanovení. Jsou v dokumentech na archi.gov.cz a v lepší webové podbě:
+
+- [Návrh implementace § 4 Právo činit digitální úkon](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/doporuceni-p4-zopds.html)
+- [Návrh implementace § 5 Právo na osvědčení o digitálním úkonu](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/doporuceni-p5-zopds.html)
+- [Návrh implementace § 6 Právo na nahrazení podpisu](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/doporuceni-p6-zopds.html)
+- [Návrh implementace § 7 Právo na využívání údajů](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/doporuceni-p7-zopds.html)
+- [Návrh implementace § 9 Právo na prokázání právní skutečnosti](http://metodiky.egdilna.cz/postupy/implementacni-doporuceni/doporuceni-p9-zopds.html)
+
+>>> Tato implementační doporučení jsou podrobějším rozborem, co a jak k jednotlivým právům. Odkazy vedou na jejich webovou verzi na webu EG metodiky, protože je přehlednější a hlavně webová, originály na webu NAEG jsou ve Wordu a nejsou tak přehledné.
+
+
+-----
+
 
 ## Jaké technické kusy budete potřebovat?
 
