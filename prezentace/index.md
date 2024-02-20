@@ -9,6 +9,8 @@ Níže jsou odkazy na námi připravené a v případě nutnosti aktualizované 
 
 - [eGovernment je i pro nás v úřadu](eg-je-i-pro-nas-v-uradu)
 - [Právo na digitální služby v úřadu](pds-v-uradu)
+- 🆕 [Nová vyhláška o dlouhodobém řízení](nova-vyhlaska-dlouhodobe-rizeni)
+- 🆕 [Tvorba informační koncepce OVS](tvorba-ik)
 - [Základní věci na něž myslet pro přístupnost čehokoliv](a11y-nacomyslet)
 
 A také nepřehlédněte prezentace zpracované ostatními:

@@ -1,0 +1,357 @@
+<meta charset="utf-8" lang="cs">
+
+
+**Tvorba informační koncepce orgánu veřejné správy**
+	Co to je, proč to potřebujeme, jak na to?
+
+https://www.egovedu.cz/prezentace/tvorba-ik
+
+
+Michal Rada, [EGOVedu](https://egovedu.cz)
+
+
+
+ℹ️ Ovládání prezentace: F spouští klávesnici, šipky posun snímků, N pro pohled prezentujícího, T pro časovač prezentace
+
+>>> Prezentace je součástí učebních materiálů z projektu EGOVedu (www.egovedu.cz)
+>>>
+>>> Tato prezentace je zveřejněna a může být volně využitá a volně šířena pod otevřenou licencí CC
+>>>
+>>> Technicky je prezentace vytvořena s využitím nástroje MarkDeep-slides 
+>>>
+>>> Historie verzí:
+>>>
+>>> * verze 1.0 z 20.2.2024: První publikovaná verzepřednášejícího.
+
+----------
+
+
+
+# IK v kontextu
+
+----------
+
+## Fungování organizace
+
+Pro **orgány veřejné správy** platí, že se musí řídit celou řadou povinností.
+
+* Organizace se řídí strategicky, projektově a procesně
+* Vykonává-li se veřejná správa, uzpůsobí se tomu vše ostatní v organizaci
+* Nezbytná je strategie organizace, která je v souladu se svým okolím a která se pravidelně vyhodnocuje
+* Další důležitou oblastí je vnitřní sebekontrola, v případech OVS jde zejména o opravdu fungující interní audit
+* Pro některé nově se k tomu přidává soubor povinností stran řízení a fungování ICT v organizaci
+
+
+--------
+
+## Orgány veřejné správy
+
+Orgány veřejné správy definují zákon 365/2000 o ISVS a zákon 320/2021 o finanční kontrole
+
+Nás zajímá Definice OVS podle zákona 365/2000, zahrnuje státní orgány, orgány územních samosprávných celků nebo státní právnické osoby
+
+Více k definici a popisu [Orgánů veřejné správy](https://architektovani.tiddlyhost.com/#org%C3%A1ny%20ve%C5%99ejn%C3%A9%20spr%C3%A1vy) a [Státní právnická osoba](https://archi.gov.cz/znalostni_baze:statni_po)
+
+Podle rozsahu povinností a složitosti řízení také rozlišujeme [druhy OVS](https://architektovani.tiddlyhost.com/#Druhy%20org%C3%A1n%C5%AF%20ve%C5%99ejn%C3%A9%20spr%C3%A1vy), ale jejich oficiální členění dle povinností legislativa neudává.
+
+OVS mají obecně stran ICT základní okruhy povinností:
+
+* Dlouhodobé řízení ICT a IS
+* Soulad se zákonem o ISVS a vyhláškou a s IKČR a jejím rámcem
+* Informační koncepce OVS
+* Stanoviska OHA 
+
+
+----------
+
+## OVS versus OVM
+
+Pletou se nám tady dva pojmy a dvě naprosto nezávislé role:
+
+* **Orgány veřejné správy**: jsou podle zákona 365/2000 a jde o subjekty, které spravují informační systémy veřejné správy a povinnosti dlouhodobého řízení ICT
+* **Orgány veřejné moci**: jsou podle zákona 111/2009 a jde o organizace, které vykonávají působnost v agendách veřejné správy a mají povinnosti sdílení údajů a poskytování digitálních služeb
+
+ℹ️ OVM je z principu vždy OVS, nicméně zdaleka ne každé OVS je OVM
+
+⚠️ Bohužel neplatí, že orgány veřejné správy vykonávají veřejnou správu
+
+
+>>> Tohle se musí zdůraznit. Ani právníci nedokážou v úřadech vnímat rozdíly mezi OVS a OVM a pletou si to.
+>>>
+>>> To, jestli je daná organizace OVS nebo OVM je rozhodující jen u těch, kteří jsou OVS ale nejsou OVM.
+>>> 
+>>> * Stručně řečeno: OVS jsou ti, kterých se týkají věci okolo řízení ICT, stanovisek OHA a jejich informačních systémů, speciálně ISVS. OVS jsou pak ty OVS, které jsou povinny řešit agendy (vykonávají působnost) a k tomu používají svoje informační systémy jako ISVS
+>>> Informační koncepci musí mít každý OVS, nikoliv OVM. Jenže, protože všechny OVM jsou i OVS, tak samozřejmě musí mít IK. Ale je řada organizací, které jsou sice OVS, ale nejsou OVM, tedy se vztahuje na ně okruh jen pro některé systémy.
+>>> * Naopak, co se týče povinností sdílet údaje, propojený datový fond, elektronické formuláře a třeba i integrace ISVS, to se týká pouze OVM.
+>>> * Asi nejsložitější je pochopit, kdy je daný úřad v roli OVM a kdy v roli OVS, to se týká pak už jednotlivých povinností.
+
+
+
+----------
+
+
+## Druhy OVS
+
+Také pro tvorbu a rozsah IK OVS si musíme takové organizace rozdělit do několika druhů, to nám pomůže vytvořit IK opravdu smysluplně
+
+OVS jsme si pracovně rozdělili na následující:
+
+1. Úřady obecně: Jsou vždy orgány veřejné moci, nám se v tomto druhu jedná o ministerstva a ústřední správní úřady
+2. Kraje: řeší ICT i pro obce ve svém území
+3. Obce s rozšířenou působností: řeší částečně ICT i pro obce ve svém obvodu, musí být v souladu s krajem
+4. Obce I. a II. typu: mohou si to zjednodušit, musí být v souladu se svým ORP a krajem
+5. Neúřady: To jsou OVS jež spadají do této definice, ale nevykonávají veřejnou správu a tedy nejsou orgánem veřejné moci (jsou ale typicky státní právnické osoby), ti musí být v souladu a respektovat řízení jejich zřizovatele
+6. Nemocnice: Zvláštní skupina OVS, která musí být v souladu eHealth legislativou a s IK MZD a která řeší speciální agendy a činnosti a proto je její řízení ICT do značné míry odlišné od ostatních, nás zajímají jen ty, které jsou zároveň státní právnické osoby
+
+>>> Tohle je pomocné dělení. Před zákonem a vyhláškou jsou si sice všechny OVS rovny, ale fakticky to tak není, protože každý druh má jiné digitální povinnosti z jiných zákonů. Tedy logicky, to co bude dělat ministerstvo je jiné, než to, co bude dělat malá obec. Nemocnice zase úplně nepotřebuje rozsah pro ústřední úřad, protože jím není.
+
+--------
+
+
+
+## Dlouhodobé řízení
+
+Dlouhodobé řízení informačních systémů (ICT obecně) je jednou ze základních povinností úřadů a dalších subjektů (orgánů veřejné správy). Obecně povinnosti určuje zákon 365/2000 a podrobnosti pak stanoví vyhláška 360/2023 (vyhláška o dlouhodobém řízení)
+
+Základními principy dlouhodobého řízení jsou:
+
+1. Informační koncepce orgánu veřejné správy ICT
+2. Strategické řízení ICT realizované příslušnými procesy
+3. Řízení pořízení, rozvoje a provozu informačních systémů
+4. Provozní dokumentace informačních systémů
+
+Podrobněji na wiki na stránce [dlouhodobé řízení](https://architektovani.tiddlyhost.com/#Dlouhodob%C3%A9%20%C5%99%C3%ADzen%C3%AD%20informa%C4%8Dn%C3%ADch%20syst%C3%A9m%C5%AF)
+
+----------
+
+# Informační koncepce orgánu veřejné správy
+
+----------
+
+
+## Co je IK OVS
+
+Informační koncepce orgánu veřejné správy je dokument, který stanoví požadavky a plány pro vytváření, správu, provoz a rozvoj informačních systémů veřejné správy a pro řízení informatiky. 
+
+Obecně povinnost IK ukládá zákon 365/2000 o ISVS, strukturu a podrobnosti pak vyhláška 360/2023 o dlouhodobém řízení. 
+
+
+* Plán rozvoje informačních systémů** - popisuje stávající a cílový stav architektury orgánu veřejné správy a plán realizace změn informačních systémů.
+* Plán řízení informatiky** - popisuje stávající a cílový stav řízení informatiky a plán realizace změn pro dosažení cílového stavu.
+* Záměry, kterými se OVS posune v řízení svého výkonu a v řízení své informatiky
+
+Informační koncepce obecně
+
+* umožňuje detailní poznání celého úřadu (organizace) a jejího řízení
+* slouží k určení dalšího směřování a rozvoje nejen v ICT
+* je obhajobou a povinným rámcem pro změny
+* je závazná pro celou organizaci, ale i pro její dodavatele
+
+
+
+
+
+----------
+
+## IKČR a OVS
+
+Protože OVS musí být v souladu s IKČR, týká se to samozřejmě i jeho informační koncepce
+
+* IKČR obsahuje cíle, principy a zásady
+* Do naší IKČR potřebujeme uvést soulad s IKČR jak je nyní
+* Svoji IKČR musíme psát tak, abychom soulad s IKČR zajistili
+* Naše aktivity, projekty a záměry musí vycházet na obecné úrovni z IKČR a jednoho rámce
+* Obecně nevymýšlíme kolo: Cíle, zásady a principy přebíráme z IKČR a doplňujeme o naše specifické
+
+Jak se s tím ve své IK vypořádat:
+
+1. [národní architektonické principy](https://architektovani.tiddlyhost.com/#n%C3%A1rodn%C3%AD%20architektonick%C3%A9%20principy) naplňujeme. V IK provedeme zhodnocení souladu s principem a pokud nejsme obecně v souladu, vytvoříme si záměry.
+2. [národní zásady řízení ICT](https://architektovani.tiddlyhost.com/#n%C3%A1rodn%C3%AD%20z%C3%A1sady%20%C5%99%C3%ADzen%C3%AD%20ICT) naplňujeme. V IK provedeme zhodnocení souladu se zásadou a  pokud nejsme obecně v souladu, vytvoříme si záměry.
+3. [národní cíle eGovernmentu a ICT](https://architektovani.tiddlyhost.com/#n%C3%A1rodn%C3%AD%20c%C3%ADle) realizujeme. Do IK vypíšeme cíle, které jsou pro nás vhodné a pro jejich realizaci vytvoříme záměry.
+
+
+-----------
+
+
+## Povinnosti k IK
+
+Obecně udává povinnosti zákon 365/2000
+
+* Vydávat a realizovat svoji informační koncepci podle § 5a odst. 2 (P223)
+* Vyhodnocovat plnění svojí informační koncepce podle § 5a odst. 2 (P225)
+* Uvést IK OVS do souladu s IKČR podle Zákona 365/2000, Čl 2 zákona 104/2017 (P239)
+* Stanovit své cíle v oblasti řízení IS podle § 5a odst. 2 (P2025)
+* Zpracovat jedinou informační koncepci pro územní korporace podle § 5a odst. 2 (P2026)
+* Předložit informační koncepci DIA podle § 5a odst. 2 (P2027)
+* Stanovit principy řízení IS podle § 5a odst. 2 (P2029)
+
+Detailní podrobnosti pak udává vyhláška 360/2023, konkrétně § 4
+
+* Vydávání a aktualizace IK
+* Zveřejnění IK
+* Vyhodnocování plnění IK
+
+--------
+
+## IK je písmo svaté
+
+Je třeba si uvědomit důležitost, význam a především závaznost IK
+
+* Informační koncepce je jediným legálním strategickým rámcem pro řízení ICT v organizaci
+* OVS musí dělat to, co si stanovil ve své IK
+* OVS **nesmí** v rámci řízení a rozvoje ICT dělat to, co ve své IK nemá
+* IK je závazná pro každého, samotnou organizaci, ale třeba i pro dodavatele
+* IK je závazná pro jakékoliv vedení. Pokud chce nové vedení OVS něco změnit, musí nejprve upravit IK.
+* OVS se ze své IK zodpovídá a to na různých úrovních. Mimochodem IK je veřejná.
+
+---------
+
+## Struktura IK OVS
+
+Strukturu opět udává vyhláška 360/2023 a konkretizuje ji pak DIA v rámci osnovy IK OVS.
+
+Obecná obsahová struktura IK OVS (§ 3 vyhlášky 360/2023)
+
+* Plán rozvoje informačních systémů orgánu veřejné správy
+	* popis stávajícího stavu architektury orgánu veřejné správy
+	* popis důvodů pro změny architektury orgánu veřejné správy
+	* navržený cílový stav architektury orgánu veřejné správy
+	* plán realizace změn informačních systémů orgánu veřejné správy
+* Plán řízení informatiky
+	* popis stávajícího stavu řízení informatiky
+	* popis důvodů pro změny řízení informatiky
+	* navržený cílový stav řízení informatiky
+	* plán realizace změn pro dosažení cílového stavu řízení informatiky
+* Dokumentace o správě informační koncepce orgánu veřejné správy obsahuje
+	* dobu platnosti informační koncepce orgánu veřejné správy
+	* postupy při vyhodnocování dodržování informační koncepce orgánu veřejné správy
+	* postupy při provádění změn informační koncepce orgánu veřejné správy
+	* změnové listy, kterými byla informační koncepce orgánu veřejné správy změněna
+
+-----------
+
+## IK jako rámec
+
+Pokud z objektivních důvodů chceme v OVS ponechat či vytvořit další strategické dokumenty pro ICT, máme dvě možnosti.
+
+1. Tyto dokumenty včleníme do IK (vhodné pokud jsou stručné a dá se to tak udělat)
+2. V IK stanovíme cíle a záměry a řekneme, že k IK OVS existují navazující dokumenty řešící dílčí oblasti
+
+Nezapomínáme ale na to, že i tyto dokumenty musíme zveřejnit. To se nemusí týkat určitých částí bezpečnostní dokumentace.
+
+---------
+
+## IK a architektura
+
+Takřka 70 procent obsahu IK pochází z architektury úřadu. 
+
+* Z architektonického modelu (diagramy i tabulky prvků)
+* Z architektonických znalostí (podle místa jejich udržování)
+
+Kromě čisté architektury se také zodpovídáme z toho, KDE a JAK si řádně a efektivně vedeme architektonické znalosti.
+
+Stran architektury jako takové
+
+* Na motivační vrstvě řešíme motivační architekturu, včetně 
+    * IKČR a našich doplněných motivací
+    * interních motivací pro změny
+    * záměrů s vazbou na cíle či další motivační prvky jež realizují
+* Na byznysové vrstvě do IK promítneme byznysovou architekturu OVS a to zejména
+    * Organizační strukturu OVS a organizační strukturu útvaru IT (to je součást byznysové vrstvy)
+    * Vnější byznysovou architekturu založenou na výkonu agend z RPP a rámcových činností OVS
+    * Vnitřní byznysovou architekturu, tedy kdo co dělá
+* Na aplikační vrstvě přehled všech aplikací, jejich evidence a zodpovědností (není primárně v architektuře, ale...)
+	* Klíčové aplikace a jejich (zejména vnější) integrace
+	* Vazba aplikace na byznys který podporuje
+* Pro technologickou a infrastrukturní architekturu platí totéž
+
+Shrnuto, pro IK potřebujeme 
+1. mít dobře zpracovanou architekturu, která je součástí IK (model je přiložen k IK), nebo
+2. vědět, co nám ve zpracování architektury chybí a do IK si uložit její dodělání a doplnit příslušné záměry
+
+
+----------
+
+
+## Základní procesy k IK
+
+V organizaci se musí nastavit a prokazatelně řešit alespoň tyto základní procesy spojené s informační koncepcí OVS:
+
+* Vydání informační koncepce OVS: Orgán veřejné správy vydává informační koncepci orgánu veřejné správy na období 5 let (§ 4 odst. 1 vyhlášky 360/2023)
+* Aktualizace informační koncepce OVS podle skutečnosti: Orgán veřejné správy uvádí informační koncepci orgánu veřejné správy do souladu se skutečným stavem, a to nejpozději do 6 měsíců ode dne, kdy informační koncepce orgánu veřejné správy přestala odpovídat skutečnému stavu. (§ 4 odst. 2 vyhlášky 360/2023)
+* Zveřejnění informační koncepce OVS: Orgán veřejné správy zveřejňuje informační koncepci orgánu veřejné správy způsobem umožňujícím dálkový přístup. (§ 4 odst. 4 vyhlášky 360/2023)
+* Vyhodnocení plnění informační koncepce OVS: Orgán veřejné správy provádí vyhodnocení dodržování informační koncepce orgánu veřejné správy alespoň jednou za 2 roky ode dne jejího vydání nebo změny. (§ 4 odst. 5 vyhlášky 360/2023)
+
+
+
+
+------
+
+## Tvorba IK je projekt
+
+* Není to úkol IT útvaru, ale celé organizace
+* Za IK zodpovídá konkrétní osoba, dohlíží architektonický board
+* I tvorba IK, ve které řešíme projektové řízení ICT se má řídit jako projekt
+* Hlavní slovo má legislativa, výsledkem musí být společný zájem celého vedení OVS
+* Vycházíme z národní úrovně, pokračujeme na úroveň úřadu, pak na úroveň ICT a pak na úroveň informačního systému
+* IK netvoříme jako textový dokument, ale jako výstup z dat a znalostí, zejména z architektury
+* IK je zásadním závazným vnitřním předpisem, schvaluje se jako každý jiný vnitřní předpis
+* Součástí IK jsou i záměry, které řeší projektové řízení i v průběhu uplatňování IK
+* Po vydání IK nezapomeneme na pravidelné vyhodnocování a případnou tvorbu a schvalování změn
+
+----------
+
+## Rámcový postup tvorby IK
+
+Zejména pokud je to pro OVS nové, je vhodné si určit rozumný postup, jak na to.
+
+Společně s OVS jsme navrhli [Rámcový postup tvorby IK OVS](https://architektovani.tiddlyhost.com/#R%C3%A1mcov%C3%BD%20postup%20tvorby%20IK), který je na stránce s postupem detailněji rozebrán a byl již i prakticky odzkoušen při tvorbě nových IK.
+
+
+Vesměs je rozdělen na tyto fáze
+
+1. Dobře si vysvětlit co to IK je a vzít to za projekt celé organizace
+✏️2. Dobře poznat současný stav (a to skutečný) a zhodnotit se vůči souladu s...
+1. Zpracovat či dopracovat architekturu OVS a její promítnutí do výstupu IK
+2. Stanovit záměry, kterými si realizujete cíle a uvádíte se do souladu se vším kolem
+3. IK je základní strategický dokument a klasicky si ho projednáme v organizaci.
+
+>>> Při prezentaci si pojďme projít aktuální verzi rámcového postupu, vždy aktuální je podle odkazu v tomto snímku.
+>>>
+>>> Na wiki ZA jsou i předpřipravené některé vzory pro hodnocení. Ty jsou už zapracovány v některých vzorových osnovách.
+
+
+
+
+
+
+<!-- Markdeep slides stuff -->
+<script>
+    markdeepSlidesOptions = {
+        aspectRatio: 16 / 9,
+        theme: 'simple',
+        fontSize: 20,
+        diagramZoom: 1.0,
+        totalSlideNumber: true,
+        progressBar: true,
+        breakOnHeadings: false,
+        slideChangeHook: (oldSlide, newSlide) => {},
+        modeChangeHook: (newMode) => {}
+    };
+</script>
+<link rel="stylesheet" href="markdeep-slides/lib/markdeep-relative-sizes/1.11/relativize.css">
+<link rel="stylesheet" href="markdeep-slides/markdeep-slides.css">
+<script src="markdeep-slides/markdeep-slides.js"></script>
+<!-- Markdeep stuff -->
+<script>
+    markdeepOptions = {
+        tocStyle: 'none',
+        detectMath: false,
+        onLoad: function() {
+            initSlides();
+        }
+    };
+</script>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="markdeep-slides/lib/markdeep/1.11/markdeep.min.js" charset="utf-8"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
