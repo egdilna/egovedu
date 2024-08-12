@@ -2,11 +2,12 @@ lang: cs
 theme: just-the-docs
 title: EGOVedu
 description: "egovedu.cz Vzdělávání v eGovernmentu (EGOVernment EDUkace)"
-url: "http://www.egovedu.cz"
+url: "https://www.egovedu.cz"
 repository: egdilna/egovedu
 aux_links:
   EGdílna: https://www.egdilna.cz
   EGOVedu: https://www.egovedu.cz
+  EGalbum: https://egovedu.cz/album
 
 heading_anchors: false
 search_enabled: true

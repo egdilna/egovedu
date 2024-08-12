@@ -10,6 +10,7 @@ EGOVernment EDUkace
 
 Vzdělávání v eGovernmentu
 
+💡 Chcete něco fakt netradičního coll? Mrkněte na naše hudební [EGalbum](https://egovedu.cz/album)
 
 ### Co je tady nového
 
