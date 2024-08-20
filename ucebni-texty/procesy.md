@@ -27,7 +27,7 @@ Zcela zásadní je, že detailní procesní dekompozice <mark>nepatří do archi
 
 Procesy a činnosti  (z architektonického hlediska lze podle potřeby zaměňovat)  v organizaci můžeme rozdělit na tři základní skupiny. Úřady vykonávají všechny tři skupiny, ostatní organizace vykonávají pouze druhou a třetí skupinu, když nevykonávají veřejnou správu.
 
-![Diagram Dělení procesů do skupin]([deleni-procesu-cinnosti.png (1098×786) (raw.githubusercontent.com)](https://raw.githubusercontent.com/egdilna/architektura-urady/Schvalene/diagramy/archimate-model/deleni-procesu-cinnosti.png))
+![Diagram Dělení procesů do skupin](https://raw.githubusercontent.com/egdilna/architektura-urady/Schvalene/diagramy/archimate-model/deleni-procesu-cinnosti.png)
 
 1. Skupina Procesy výkonu veřejné správy : Procesy a činnosti v organizaci, pokud je orgánem veřejné moci vykonává působnost dle agendového modelu veřejné správy, tak vykonává veřejnou správu. Procesy spojené s výkonem agendy veřejné správy jsou procesy výkonu veřejné správy. K nim organizace využívá agendové informační systémy.
     * Činnosti v přenesené působnosti : Činnosti jež jsou stanoveny jako výkon přenesené působnosti, stanovuje agendový zákon a jsou realizovány územě samosprávným celkem příkazem  zákona jako přenesená působnost. Musí mít vazbu na agendu a činnost v rámci Registru práv a povinností prostřednictvím agendového modelu veřejné správy
