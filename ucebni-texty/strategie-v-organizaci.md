@@ -9,7 +9,7 @@ last_modified_date: 2022-07-22
 ---
 
 
-## 
+## Strategický rámec IT v organizaci a v úřadu
 
 Popišme si stručně, jak má ideálně vypadat stratevický rámec v univerzální obecné organizaci. Úřady to mají trochu složitější, nicméně i tyhle obecné principy pro ně platí, následující je ale využitelné především pro organizace jež nejsou úřady, ale chtějí svoje ICT rozvíjet správně.
 
